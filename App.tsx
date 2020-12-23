@@ -7,40 +7,65 @@ const Data = [
       Title:'PETIT DEJEUNER',
       elements: [
           {
-              name: "coffe",
-              prix: 12,
-              comp: "2 oufs*hile d'olive* olive noir * pain"
+              name: "Omelette Nature ",
+              prix: 24,
+              comp: ""
           },
           {
-              name: "coffe",
-              prix: 12,
-              comp: "2 oufs*hile d'olive* olive noir * pain"
+              name: "Omelette au Jambon",
+              prix: 26,
+              comp: "2oeufs+huile d’olive+olive noir+jambon+pain"
           },
           {
-              name: "coffe",
-              prix: 12,
-              comp: "2 oufs*hile d'olive* olive noir * pain"
+              name: "Omelette au Champignon",
+              prix: 17,
+              comp: "2oeufs+huile d’olive+olive noir+champignon+pain"
           },
           {
-              name: "coffe",
-              prix: 12,
-              comp: "2 oufs*hile d'olive* olive noir * pain"
+              name: "Omlette Espagnole ",
+              prix: 19 ,
+              comp: "2ouefs+poivron rouge et vert+oignon+tomate+huile d’olive+olive noir+fromage+pain"
           },
           {
-              name: "coffe",
-              prix: 12,
-              comp: "2 oufs*hile d'olive* olive noir * pain"
+              name: "Omlette crevette :",
+              prix: 19,
+              comp: "2oeufs+crevette+huile d’olive+olive noir+fromage+pain"
           },
           {
-              name: "coffe",
-              prix: 12,
-              comp: "2 oufs*hile d'olive* olive noir * pain"
+              name: "Cake aux choix",
+              prix: 20,
+              comp: "Orange,Citron,Vanille,Amandes,choconoix"
           },
           {
-              name: "coffe",
-              prix: 12,
-              comp: "2 oufs*hile d'olive* olive noir * pain"
+              name: "Fassi",
+              prix: 22,
+              comp: "2oeufs+khlie+pain"
           },
+          {
+            name: "Chakchoucka à l’œuf",
+            prix: 25,
+            comp: "+Boisson + Eau sidi Ali"
+        },
+        {
+            name: "Chakchouka à l’",
+            prix: 25,
+            comp: "2ouefs+tomate+khlie+huile d’olive+olive noir+pain"
+        },
+        {
+            name: "Catalan",
+            prix: 25,
+            comp: "tranche espagnol+1oeuf+huile d’olive+olive noir+pain"
+        },
+        {
+            name: "Croque damme",
+            prix: 25,
+            comp: "3pain demi+1ouef+fromage rappé+jombon+huile d’olive+olive noir"
+        },
+        {
+            name: "Croque monsieur",
+            prix: 25,
+            comp: "4pain demi+2oeufs+fromage rappé+jombon+huile d’olive=olive noir"
+        },
       ],
       imgs:[
           require('./assets/pic1.jpg'),
