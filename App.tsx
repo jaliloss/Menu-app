@@ -14,47 +14,47 @@ const Data = [
           {
               name: "Omelette au Jambon",
               prix: 26,
-              comp: "2oeufs, huile d’olive, olive noir, jambon, pain"
+              comp: "2Œufs, huile d’olive, olive noir, jambon, pain"
           },
           {
               name: "Omelette au Champignon",
               prix: 17,
-              comp: "2oeufs, huile d’olive, olive noir, champignon, pain"
+              comp: "2Œufs, huile d’olive, olive noir, champignon, pain"
           },
           {
               name: "Omlette Espagnole ",
               prix: 19 ,
-              comp: "2ouefs, poivron rouge et vert, oignon, tomate, huile d’olive, olive noir, fromage, pain"
+              comp: "2Œefs, poivron rouge et vert, oignon, tomate, huile d’olive, olive noir, fromage, pain"
           },
           {
               name: "Omlette crevette :",
               prix: 19,
-              comp: "2oeufs, crevette, huile d’olive, olive noir, fromage, pain"
+              comp: "2Œufs, crevette, huile d’olive, olive noir, fromage, pain"
           },
           {
               name: "Cake aux choix",
               prix: 20,
-              comp: "Orange,Citron,Vanille,Amandes,choconoix"
+              comp: "Orange, Citron, Vanille, Amandes, Choconoix"
           },
           {
               name: "Fassi",
               prix: 22,
-              comp: "2oeufs, khlie, pain"
+              comp: "2Œufs, khlie, pain"
           },
           {
             name: "Chakchoucka à l’œuf",
             prix: 25,
-            comp: ", Boisson ,  Eau sidi Ali"
+            comp: "Boisson ,  Eau sidi Ali"
         },
         {
-            name: "Chakchouka à l’",
+            name: "Chakchouka",
             prix: 25,
-            comp: "2ouefs, tomate, khlie, huile d’olive, olive noir, pain"
+            comp: "2Œefs, tomate, khlie, huile d’olive, olive noir, pain"
         },
         {
             name: "Catalan",
             prix: 25,
-            comp: "tranche espagnol, 1oeuf, huile d’olive, olive noir, pain"
+            comp: "Tranche espagnol, 1oeuf, huile d’olive, olive noir, pain"
         },
         {
             name: "Croque damme",
@@ -64,63 +64,14 @@ const Data = [
         {
             name: "Croque monsieur",
             prix: 25,
-            comp: "4pain demi, 2oeufs, fromage rappé, jombon, huile d’olive, olive noir"
+            comp: "4pain demi, 2Œufs, fromage rappé, jombon, huile d’olive, olive noir"
         },
         {
             name: "Marocain",
             prix: 22,
-            comp: "(harcha, maloui, huile d’olive, olive noir, 1fromage, miel, confiture"
+            comp: "Harcha, maloui, huile d’olive, olive noir, fromage, miel, confiture"
         },
-        {
-            name: "Croque monsieur",
-            prix: 25,
-            comp: "4pain demi, 2oeufs, fromage rappé, jombon, huile d’olive, olive noir"
-        },
-        {
-            name: "Croque monsieur",
-            prix: 25,
-            comp: "4pain demi, 2oeufs, fromage rappé, jombon, huile d’olive, olive noir"
-        },
-        {
-            name: "Croque monsieur",
-            prix: 25,
-            comp: "4pain demi, 2oeufs, fromage rappé, jombon, huile d’olive, olive noir"
-        },
-        {
-            name: "Croque monsieur",
-            prix: 25,
-            comp: "4pain demi, 2oeufs, fromage rappé, jombon, huile d’olive, olive noir"
-        },
-        {
-            name: "Croque monsieur",
-            prix: 25,
-            comp: "4pain demi, 2oeufs, fromage rappé, jombon, huile d’olive, olive noir"
-        },
-        {
-            name: "Croque monsieur",
-            prix: 25,
-            comp: "4pain demi, 2oeufs, fromage rappé, jombon, huile d’olive, olive noir"
-        },
-        {
-            name: "Croque monsieur",
-            prix: 25,
-            comp: "4pain demi, 2oeufs, fromage rappé, jombon, huile d’olive, olive noir"
-        },
-        {
-            name: "Croque monsieur",
-            prix: 25,
-            comp: "4pain demi, 2oeufs, fromage rappé, jombon, huile d’olive, olive noir"
-        },
-        {
-            name: "Croque monsieur",
-            prix: 25,
-            comp: "4pain demi, 2oeufs, fromage rappé, jombon, huile d’olive, olive noir"
-        },
-        {
-            name: "Croque monsieur",
-            prix: 25,
-            comp: "4pain demi, 2oeufs, fromage rappé, jombon, huile d’olive, olive noir"
-        },        
+                
         {
             name: "Marocain :",
             prix:22,
