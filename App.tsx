@@ -71,9 +71,6 @@ const Data = [
             prix: 22,
             comp: "Harcha, maloui, huile d’olive, olive noir, fromage, miel, confiture"
         },
-                
-     
-
         {
             name: "Brunch :",
             prix:22 ,
@@ -120,7 +117,7 @@ const Data = [
             comp: "2mini batbout au jambon œuf, fruit de saison, creme amande , pomme noisette, panna-cotta"
         },
         {
-            name: "Rf issa :",
+            name: "Rfissa :",
             prix:22 ,
             comp: "2harcha complet, fruit sec, huile d’olive"
         },
@@ -229,7 +226,50 @@ name:"Tisane lipton",prix: 13},
        
     ]
 },
-
+{
+    Title:'Cocktails cafe chaud',
+    elements: [
+        {name:"Café cookies",prix:22, comp:"mixer cookies, lait, café, Créme Chantilly"},
+        {name:"Vanilla coffée",prix:22, comp:"mixer vanille, lait, café, créme chantilly"},
+        {name:"Caramelo mocha",prix:22, comp:"mixer chocolat, mixer caramel, lait, café, créme chantilly"},
+        {name:"Mokaccino",prix:22, comp:"nutella, café allongé, Créme chantilly"},
+        {name:"Cappuccino",prix:23, comp:"chocolat, caramel, café, crème Chantilly"},
+        {name:"Cappuccino light",prix:18, comp:"chocolat, caramel, café"},
+        {name:"Nutella chaud",prix:22, comp:"avec créme chantilly"},
+        {name:"Chocolat chaud à l’ancienne",prix:18, comp:""},
+        {name:"Chocolat liegeois à l’ancienne ",prix:22, comp:"avec créme chantilly"},
+    ],
+    imgs:[
+        require('./assets/pic4.jpg'),
+        require('./assets/pic5.jpg'),
+       
+    ]
+},
+{
+    Title:'Jus',
+    elements: [
+        {name:"Jus orange",prix:17, comp:""},
+        {name:"Jus de citron",prix:18, comp:""},
+        {name:"Jus de pomme",prix:21, comp:"Base de lait : 17 DH"},
+        {name:"Jus de banane",prix:21, comp:"Base de lait : 17 DH"},
+        {name:"Jus d’avocat",prix:23, comp:"Base de lait : 21 DH"},
+        {name:"Jus de péche",prix:22, comp:""},
+        {name:"Jus d’ananas",prix:22, comp:""},
+        {name:"Jus de carotte",prix:20, comp:""},
+        {name:"Jus gingembres citron",prix:23, comp:""},
+        {name:"Jus Fraise",prix:19, comp:"Base de lait : 16 DH"},
+        {name:"Cocktail fruit frais",prix:27, comp:"Base de lait : 24 DH"},
+        {name:"Cocktail fruit sec",prix:31, comp:"Base de lait : 27 DH"},
+        {name:"Cocktail assitana",prix:32, comp:"Base de lait : 30 DH"},
+        {name:"Jus de citron kiwi",prix:20, comp:""},
+        {name:"Jus d’ananas kiwi citron",prix:24, comp:""},
+    ],
+    imgs:[
+        require('./assets/pic4.jpg'),
+        require('./assets/pic5.jpg'),
+       
+    ]
+},
 
 
 ]
