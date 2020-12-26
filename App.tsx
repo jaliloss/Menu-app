@@ -47,7 +47,7 @@ const Data = [
             comp: "+Boisson + Eau sidi Ali"
         },
         {
-            name: "Chakchouka à l’",
+            name: "Chakchouka",
             prix: 25,
             comp: "2ouefs+tomate+khlie+huile d’olive+olive noir+pain"
         },
@@ -71,56 +71,7 @@ const Data = [
             prix: 22,
             comp: "(harcha+maloui+huile d’olive+olive noir+1fromage+miel+confiture"
         },
-        {
-            name: "Croque monsieur",
-            prix: 25,
-            comp: "4pain demi+2oeufs+fromage rappé+jombon+huile d’olive=olive noir"
-        },
-        {
-            name: "Croque monsieur",
-            prix: 25,
-            comp: "4pain demi+2oeufs+fromage rappé+jombon+huile d’olive=olive noir"
-        },
-        {
-            name: "Croque monsieur",
-            prix: 25,
-            comp: "4pain demi+2oeufs+fromage rappé+jombon+huile d’olive=olive noir"
-        },
-        {
-            name: "Croque monsieur",
-            prix: 25,
-            comp: "4pain demi+2oeufs+fromage rappé+jombon+huile d’olive=olive noir"
-        },
-        {
-            name: "Croque monsieur",
-            prix: 25,
-            comp: "4pain demi+2oeufs+fromage rappé+jombon+huile d’olive=olive noir"
-        },
-        {
-            name: "Croque monsieur",
-            prix: 25,
-            comp: "4pain demi+2oeufs+fromage rappé+jombon+huile d’olive=olive noir"
-        },
-        {
-            name: "Croque monsieur",
-            prix: 25,
-            comp: "4pain demi+2oeufs+fromage rappé+jombon+huile d’olive=olive noir"
-        },
-        {
-            name: "Croque monsieur",
-            prix: 25,
-            comp: "4pain demi+2oeufs+fromage rappé+jombon+huile d’olive=olive noir"
-        },
-        {
-            name: "Croque monsieur",
-            prix: 25,
-            comp: "4pain demi+2oeufs+fromage rappé+jombon+huile d’olive=olive noir"
-        },
-        {
-            name: "Croque monsieur",
-            prix: 25,
-            comp: "4pain demi+2oeufs+fromage rappé+jombon+huile d’olive=olive noir"
-        },        
+         
         {
             name: "Marocain :",
             prix:22,
@@ -189,11 +140,6 @@ const Data = [
     elements: [
 
         {
-
-
-
-
-
             name: "Café noir",
             prix: 11,
             comp: ""
