@@ -66,6 +66,117 @@ const Data = [
             prix: 25,
             comp: "4pain demi+2oeufs+fromage rappé+jombon+huile d’olive=olive noir"
         },
+        {
+            name: "Marocain",
+            prix: 22,
+            comp: "(harcha+maloui+huile d’olive+olive noir+1fromage+miel+confiture"
+        },
+        {
+            name: "Croque monsieur",
+            prix: 25,
+            comp: "4pain demi+2oeufs+fromage rappé+jombon+huile d’olive=olive noir"
+        },
+        {
+            name: "Croque monsieur",
+            prix: 25,
+            comp: "4pain demi+2oeufs+fromage rappé+jombon+huile d’olive=olive noir"
+        },
+        {
+            name: "Croque monsieur",
+            prix: 25,
+            comp: "4pain demi+2oeufs+fromage rappé+jombon+huile d’olive=olive noir"
+        },
+        {
+            name: "Croque monsieur",
+            prix: 25,
+            comp: "4pain demi+2oeufs+fromage rappé+jombon+huile d’olive=olive noir"
+        },
+        {
+            name: "Croque monsieur",
+            prix: 25,
+            comp: "4pain demi+2oeufs+fromage rappé+jombon+huile d’olive=olive noir"
+        },
+        {
+            name: "Croque monsieur",
+            prix: 25,
+            comp: "4pain demi+2oeufs+fromage rappé+jombon+huile d’olive=olive noir"
+        },
+        {
+            name: "Croque monsieur",
+            prix: 25,
+            comp: "4pain demi+2oeufs+fromage rappé+jombon+huile d’olive=olive noir"
+        },
+        {
+            name: "Croque monsieur",
+            prix: 25,
+            comp: "4pain demi+2oeufs+fromage rappé+jombon+huile d’olive=olive noir"
+        },
+        {
+            name: "Croque monsieur",
+            prix: 25,
+            comp: "4pain demi+2oeufs+fromage rappé+jombon+huile d’olive=olive noir"
+        },
+        {
+            name: "Croque monsieur",
+            prix: 25,
+            comp: "4pain demi+2oeufs+fromage rappé+jombon+huile d’olive=olive noir"
+        },        
+        {
+            name: "Marocain :",
+            prix:22,
+            comp: "(harcha+maloui+huile d’olive+olive noir+1fromage+miel+confiture)"
+        },
+        
+        {
+            name: "Brunch :",
+            prix:22 ,
+            comp: "pain blédure+sauce tomate+jombon+fromage+origan+huile d’olive+olive noir"
+        },
+        {
+            name: "Beldi Gold :",
+            prix:22 ,
+            comp: "amlou+huile d’olive+olive noir+jben+pain grillé"
+        },
+        {
+            name: "Kids enfants :",
+            prix:22 ,
+            comp: "conflex+lait froid+l’eau+crépe sucrée"
+        },
+        {
+            name: "Parisien :",
+            prix:22 ,
+            comp: "pannier de 3 mini viennoiserie"
+        },
+        {
+            name: "Assitana :",
+            prix:22 ,
+            comp: "Omlette + 3merguez+club sandwich+gaufre+panna-cotta"
+        },
+        {
+            name: "Le light :",
+            prix:22 ,
+            comp: "toast grillé+fromage+fillet de dinde fumé+huile d’olive"
+        },
+        {
+            name: "Toast :",
+            prix:22 ,
+            comp: "toast grille aux choix : confiture,amlou,beure,fromage,miel,nutella"
+        },
+        {
+            name: "Gourmand :",
+            prix:22 ,
+            comp: "Omlette+3tranche tortiné jben,nutella,confiture+ 3pain cake au fruit de saison+pomme noisette+panna-cotta"
+        },
+        {
+            name: "Royal :",
+            prix:22 ,
+            comp: "2mini batbout au jambon œuf+fruit de saison+creme amande +pomme noisette+panna-cotta"
+        },
+        {
+            name: "Rf issa :",
+            prix:22 ,
+            comp: "2harcha complet+fruit sec+huile d’olive"
+        },
       ],
       imgs:[
           require('./assets/pic1.jpg'),
