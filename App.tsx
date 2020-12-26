@@ -4,7 +4,7 @@ import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import Cathegories from './components/Cathegories'
 const Data = [
   {
-      Title:'PETIT DEJEUNER',
+      Title:'Petit Dèjeuner',
       elements: [
           {
               name: "Omelette Nature ",
@@ -126,7 +126,7 @@ const Data = [
             prix:22,
             comp: "(harcha+maloui+huile d’olive+olive noir+1fromage+miel+confiture)"
         },
-        
+
         {
             name: "Brunch :",
             prix:22 ,
@@ -185,50 +185,110 @@ const Data = [
       ]
   },
   {
-    Title:' DEJEUNER',
+    Title:'SALON DE THE',
     elements: [
+
         {
-            name: "Tacos",
-            prix: 30,
-            comp: "2 oufs*hile d'olive* olive noir * pain"
+
+
+
+
+
+            name: "Café noir",
+            prix: 11,
+            comp: ""
         },
         {
-            name: "Tacos",
-            prix: 30,
-            comp: "2 oufs*hile d'olive* olive noir * pain"
+            name: "Café aromatisé",
+            prix: 16,
+            comp: ""
         },
         {
-            name: "Tacos",
-            prix: 30,
-            comp: "2 oufs*hile d'olive* olive noir * pain"
+            name: "Café créme",
+            prix: 11,
+            comp: ""
         },
         {
-            name: "Tacos",
-            prix: 30,
-            comp: "2 oufs*hile d'olive* olive noir * pain"
+            name: "Café séparé",
+            prix: 13,
+            comp: ""
         },
         {
-            name: "Tacos",
-            prix: 30,
-            comp: "2 oufs*hile d'olive* olive noir * pain"
+            name: "Café Allongé",
+            prix: 13,
+            comp: ""
         },
         {
-            name: "Tacos",
-            prix: 30,
-            comp: "2 oufs*hile d'olive* olive noir * pain"
+            name: "Capsule nespresso",
+            prix: 14,
+            comp: ""
         },
         {
-            name: "coffe",
-            prix: 30,
-            comp: "2 oufs*hile d'olive* olive noir * pain"
+            name: "The marocain",
+            prix: 11,
+            comp: ""
         },
+   {
+name:"Tisane lipton",prix: 13},
+{name:"Tisane verveine",prix: 11},
+{ name:"Lait au chocolat",prix: 11},
+{ name:"Lait chaud",prix: 11},
+{name:"Lait froid",prix: 10},   
+
     ],
     imgs:[
         require('./assets/pic4.jpg'),
         require('./assets/pic5.jpg'),
        
     ]
-}
+},
+
+
+  {
+    Title:' SUPPLEMENT',
+    elements: [
+        {name: "Soupe marocaine (tchicha)",prix:9},
+        {name: "Amlou",prix:12},
+        {name: "Omlette nature",prix:10},
+        {name: "Omlette fromage",prix:13},
+        {name: "Omlette jombon",prix:17},
+        {name: "Omlette espagnole",prix:17},
+        {name: "Omlette crevette",prix:21},
+        {name: "Chakchouka à l’œuf",prix:12},
+        {name: "Chakchouka à l’œuf et khlie",prix:24},
+        {name: "Maloui ou Harcha",prix:5},
+        {name: "Beure ou miel ou confiture",prix:3},
+        {name: "Charcuterie Jombon",prix:9},
+        {name: "Fromage rappé",prix:8},
+        {name: "Fromage fondu",prix:2},
+        {name: "Jben",prix:8},
+        {name: "Tranche espagnole",prix:9},
+        {name: "Créme chantilly",prix:5},
+        {name: "Pain au chocolat",prix:6},
+        {name: "Créme amandes",prix:8},
+        {name: "Baghrir",prix:2},
+        {name: "Tost fromage",prix:16},
+        {name: "Croque dame/mr",prix:21},
+        {name: "Fassi",prix:21},
+        {name: "Pannier de mini vinoiserie",prix:11},
+        {name: "Lelight",prix:19},
+        {name: "Toast",prix:12},
+        {name: "Paicéreal petit format",prix:5},
+        {name: "Olive noir",prix:3},
+        {name: "Huile d’olive",prix:5},
+        {name: "Assitana",prix:27},
+        {name: "Brunch",prix:19},
+        {name: "Gaurmand",prix:26},
+        {name: "Royal",prix:26},
+    ],
+    imgs:[
+        require('./assets/pic4.jpg'),
+        require('./assets/pic5.jpg'),
+       
+    ]
+},
+
+
 
 ]
 
