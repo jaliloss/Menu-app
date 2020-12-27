@@ -493,6 +493,7 @@ imgs:[
             require('./assets/pic4.jpg'),
             require('./assets/pic5.jpg'),
             ]
+            
             },
             {
                 Title:'Brochettes',
