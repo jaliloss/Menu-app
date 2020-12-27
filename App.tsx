@@ -326,7 +326,7 @@ imgs:[
 
 
         {
-            Title:'MOJITO',
+            Title:'Mojito',
             elements: [
                 {name: "Mojito nature",prix:23,comp: "Citron, menthe, mixer mujito"},
                 {name: "Mojito aromatisé",prix:26,comp: "Au choix fruit de passion/punch/fraise/forest fruit"},
@@ -337,9 +337,63 @@ imgs:[
                 require('./assets/pic5.jpg'),
                
             ]
-            },
-
-
+        },
+        {
+            Title:'Boisson',
+            elements: [
+                {name: "Eau minérale 1,5L",prix:15,comp: ""},
+                {name: "Eau minérale 50cl",prix:11,comp: ""},
+                {name: "Soda",prix:12,comp: ""},
+                {name: "Oulmes Maxi/Tropicale/Orange/Citron/Mujito",prix:12,comp: ""},
+                {name: "Orangina 50cl",prix:13,comp: ""},
+                {name: "Oasis tropical/Pomme poire/Cassis fromboise",prix:20,comp: ""},
+                {name: "Schweppes agrum",prix:15,comp: ""},
+                {name: "Schweppes mujito",prix:16,comp: ""},
+                {name: "Sweety",prix:17,comp: ""},
+            
+            ],
+            imgs:[
+                require('./assets/pic4.jpg'),
+                require('./assets/pic5.jpg'),
+               
+            ]
+        },
+        {
+            Title:'Salades',
+            elements: [
+                {name: "Salade assitana",prix:50,comp: "salade verte, carotte, choux, surimi, fruits de mer, crevette pané, ebly, mayonnaise vietnamienne"},
+                {name: "Salade du chef",prix:45,comp: "salade verte, fruits de mer, coeur de palmier, ananas, haricot rouge, mayonnaise vietnamienne"},
+                {name: "Salade avocat crevettes",prix:38,comp: "salade verte, avocat, crevettes, sauce cocktail"},
+                {name: "Salade de pates",prix:38,comp: "Les pates, thon, fromage, olive verte, maiz, olive noir, concombre, tomate cerise, artichaut, sauce blanche"},
+                {name: "Salade fraicheur",prix:37,comp: "Salade verte, poulet, jambon, tomate, coeur de palmier, mozzarella, raisin sec, noix, oeuf, sauce blanche"},
+                {name: "Salade variée",prix:35,comp: "salade verte, tomate, pomme de terre, carottes, thon, haricot vert, riz, anchois, olives vertes, ouefs, sauce blanche"},
+                {name: "Salade exotiques",prix:35,comp: "Salade verte, choux, carotte, fruit fraiche, crevette, mayonnaise vietnamienne"},
+                {name: "Salade cesar",prix:35,comp: "Salade romaine, poulet, crouton, tomate cerise, fromage, mayonaise vietnamienne"},
+            
+            ],
+            imgs:[
+                require('./assets/pic4.jpg'),
+                require('./assets/pic5.jpg'),
+               
+            ]
+        },
+        {
+            Title:'Pasta',
+            elements: [
+                {name: "Bolognaise",prix:50,comp: "Sauce tomate"},
+                {name: "Poulet",prix:50,comp: "Sauce blanche"},
+                {name: "Carbonara",prix:45,comp: "Sauce blanche"},
+                {name: "Fruits de mer",prix:55,comp: "Sauce blanche"},
+                {name: "Lasagne bolognaise",prix:50,comp: "Sauce tomate"},
+                {name: "Gratin fruit de mer",prix:55,comp: "Fruit de mer, poisson blanc, surimi penné"},
+            
+            ],
+            imgs:[
+                require('./assets/pic4.jpg'),
+                require('./assets/pic5.jpg'),
+               
+            ]
+        },
 
 ]
 
