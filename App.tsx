@@ -394,7 +394,119 @@ imgs:[
                
             ]
         },
-
+        {
+            Title:'Soupe',
+            elements: [
+                {name: "Soupe de poisson",prix:15,comp: ""},
+                {name: "Soupe assitana",prix:60,comp: "bouillon poulet, crevettes, farce de nems, champignon noir"},
+                {name: "Soupe pékinois",prix:50,comp: "bouillon de poulet, légumes, poulet aigre piquante"},
+                {name: "Soupe de fruit de mer",prix:50,comp: "bouillon de poulet, crevette, calamar, champignon, champignon noir"},
+            ],
+            imgs:[
+                require('./assets/pic4.jpg'),
+                require('./assets/pic5.jpg'),
+            ]
+        },
+        {
+            Title:'Paella',
+            elements: [
+            {name: "Paella 1 personne",prix:45,comp: ""},
+            {name: "Paella 2 personne",prix:80,comp: ""},
+            {name: "Paella 3 personne",prix:120,comp: ""},
+            ],
+            imgs:[
+            require('./assets/pic4.jpg'),
+            require('./assets/pic5.jpg'),
+            ]
+            },
+            {
+            Title:'Plats de poissons',
+            elements: [
+                {name: "Loup mariné en papillate",prix:85,comp: ""},
+                {name: "Loup gros sel",prix:85,comp: ""},
+                {name: "Loup à la plancha",prix:85,comp: ""},
+                {name: "Pavé de saumon",prix:90,comp: ""},
+                ],
+            imgs:[
+                require('./assets/pic4.jpg'),
+                require('./assets/pic5.jpg'),
+                ]
+                },
+            {
+            Title:'Risotto',
+            elements: [
+                {name: "Risotto fruit de mer",prix:55,comp: "Riz, fruit de mer, champignon, sauce blanche"},
+                {name: "Risotto poulet",prix:50,comp: "Riz, poulet, champignon, sauce blanche"},
+                ],
+            imgs:[
+                require('./assets/pic4.jpg'),
+                require('./assets/pic5.jpg'),
+                ]
+                },
+            {
+            Title:'Ration',
+            elements: [
+                    {name: "Ration calamar",prix:35,comp: ""},
+                    {name: "Ration crevette",prix:35,comp: ""},
+                    {name: "Crevette pil pil",prix:50,comp: "à la sauce tomate ou à l’ail"},
+                    ],
+            imgs:[
+                    require('./assets/pic4.jpg'),
+                    require('./assets/pic5.jpg'),
+                    ]
+                    },
+                {
+                Title:'Fritures',
+                elements: [
+                    {name: "Friture 1 personne",prix:65,comp: "Pageot royal rouget, sole, calamar, crevettes, merlan, moules"},
+                    {name: "Friture 2 personne",prix:115,comp: "Pageot royal rouget, sole, calamar, crevettes, merlan, moules"},
+                    {name: "Friture 3 personne",prix:175,comp: "Pageot royal rouget, sole, calamar, crevettes, merlan, moules"},
+                    ],
+                imgs:[
+                    require('./assets/pic4.jpg'),
+                    require('./assets/pic5.jpg'),
+                    ]
+                    },
+            {
+            Title:'Plats Viandes',
+            elements: [
+                {name: "Filet de boeuf",prix:70,comp: ""},
+                {name: "Entre cote",prix:70,comp: ""},
+                {name: "Emincé de boeuf",prix:70,comp: ""},
+                {name: "Souris d’agneau (suite à basse température)",prix:80,comp: ""},
+                ],
+            imgs:[
+                require('./assets/pic4.jpg'),
+                require('./assets/pic5.jpg'),
+                ]
+                },
+        {
+            Title:'Plats Volailles',
+            elements: [
+            {name: "Roulade de poulet",prix:70,comp: "sauce blanche"},
+            {name: "Emincé de poulet",prix:70,comp: "sauce champignon ou sauce roquefort"},
+            {name: "Blanc de poulet panné à l’anglaise",prix:60,comp: ""},
+            {name: "Poulet aigre doux",prix:65,comp: "Poulet, poivron, champignon, ananas servi avec légumes, riz et sauce aigre doux"},
+            {name: "Plat spécial Assitana", prix:80, comp:"Fillet de boeuf et blanc poulet avec sauce au choix sauc champignon/requefort/poivre"},
+            ],
+            imgs:[
+            require('./assets/pic4.jpg'),
+            require('./assets/pic5.jpg'),
+            ]
+            },
+            {
+                Title:'Brochettes',
+                elements: [
+                {name: "Viande hachée",prix:60,comp: ""},
+                {name: "Poulet",prix:55,comp: ""},
+                {name: "Merguez",prix:55,comp: ""},
+                {name: "Mixte",prix:65,comp: ""},
+                ],
+                imgs:[
+                require('./assets/pic4.jpg'),
+                require('./assets/pic5.jpg'),
+                ]
+                },
 ]
 
 export default function App() {
