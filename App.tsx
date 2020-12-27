@@ -263,6 +263,11 @@ name:"Tisane lipton",prix: 13},
         {name:"Cocktail assitana",prix:32, comp:"Base de lait : 30 DH"},
         {name:"Jus de citron kiwi",prix:20, comp:""},
         {name:"Jus d’ananas kiwi citron",prix:24, comp:""},
+    ],
+    imgs:[
+        require('./assets/pic4.jpg'),
+        require('./assets/pic5.jpg'),
+       
     ]
     },
         {
@@ -281,25 +286,6 @@ imgs:[
    
 ]
 },
-
-{
-    Title:'COCKTAIL FROID',
-    elements: [
-        {name: "Frapuccino ice",prix:23,comp: ", "},
-        {name: "Marroccino ice coffée",prix:16,comp: "nutella, cookies, café au lait"},
-        {name: "Vanilla ice coffée",prix:11,comp: "vanille"},
-        {name: "Cappucino ice",prix:13,comp: "café, caramel, lait"},
-        {name: "Mocaccino ice",prix:13,comp: "nutella, café au lait, créme chantilly"}
-    
-    ],
-    imgs:[
-        require('./assets/pic4.jpg'),
-        require('./assets/pic5.jpg'),
-       
-    ]
-},
-    
-
 
     {
         Title:'COCKTAIL DE PASSION',
