@@ -263,14 +263,16 @@ name:"Tisane lipton",prix: 13},
         {name:"Cocktail assitana",prix:32, comp:"Base de lait : 30 DH"},
         {name:"Jus de citron kiwi",prix:20, comp:""},
         {name:"Jus d’ananas kiwi citron",prix:24, comp:""},
+    ]
+    },
         {
     Title:'COCKTAIL FROID',
     elements: [
         {name: "Frapuccino ice",prix:23,comp: ", "},
-        {name: "Marroccino ice coffée",prix:16,comp: ",nutella+cookies+café au lait"},
-        {name: "Vanilla ice coffée",prix:11,comp: ",vanille"},
-        {name: "Cappucino ice",prix:13,comp: ",café+caramel+lait"},
-        {name: "Mocaccino ice",prix:13,comp: ",nutella+café au lait+créme chantilly"}
+        {name: "Marroccino ice coffée",prix:16,comp: ",nutella, cookies, café au lait"},
+        {name: "Vanilla ice coffée",prix:11,comp: "vanille"},
+        {name: "Cappucino ice",prix:13,comp: "café, caramel, lait"},
+        {name: "Mocaccino ice",prix:13,comp: "nutella, café au lait, créme chantilly"}
 
 ],
 imgs:[
@@ -284,10 +286,10 @@ imgs:[
     Title:'COCKTAIL FROID',
     elements: [
         {name: "Frapuccino ice",prix:23,comp: ", "},
-        {name: "Marroccino ice coffée",prix:16,comp: ",nutella+cookies+café au lait"},
-        {name: "Vanilla ice coffée",prix:11,comp: ",vanille"},
-        {name: "Cappucino ice",prix:13,comp: ",café+caramel+lait"},
-        {name: "Mocaccino ice",prix:13,comp: ",nutella+café au lait+créme chantilly"}
+        {name: "Marroccino ice coffée",prix:16,comp: "nutella, cookies, café au lait"},
+        {name: "Vanilla ice coffée",prix:11,comp: "vanille"},
+        {name: "Cappucino ice",prix:13,comp: "café, caramel, lait"},
+        {name: "Mocaccino ice",prix:13,comp: "nutella, café au lait, créme chantilly"}
     
     ],
     imgs:[
@@ -296,23 +298,23 @@ imgs:[
        
     ]
 },
-    },
+    
 
 
     {
         Title:'COCKTAIL DE PASSION',
         elements: [
-            {name: "Punch",prix:23,comp: ",orange, mixer punch, citron, ananas"},
-            {name: "Fruit de passion",prix:25,comp: ",orange, fruit de passion"},
-            {name: "Florida",prix:25,comp: ",mixer tropical, orange ou citron , noix de coco"},
-            {name: "Pinacolada",prix:27,comp: ",mixer pinacolada, jus d’ananas, noix de coco"},
-            {name: "Lovely",prix:25,comp: ",mixer forest fruit, jus fruit rouge "},
-            {name: "Diabolo",prix:28,comp: ",mixer blue berry, mixer punch, sprite"},
-            {name: "Borra Borra",prix:27,comp: ",citron, orange, fraise, fruit de passion, grenadille, ananas"},
-            {name: "Cocktail tropical fruit",prix:26,comp: ",ananas, banane, mixer tropical"},
-            {name: "Smoothie aux fruit",prix:28,comp: ",avocat, fraise, orange, une boule"},
-            {name: "Cocktail mango magic",prix:28,comp: ",manguo purée, orange, mangue"},
-            {name: "X bébé smoothie",prix:27,comp: ",bleu berry, yaourt, 2 boules"},
+            {name: "Punch",prix:23,comp: "orange, mixer punch, citron, ananas"},
+            {name: "Fruit de passion",prix:25,comp: "orange, fruit de passion"},
+            {name: "Florida",prix:25,comp: "mixer tropical, orange ou citron , noix de coco"},
+            {name: "Pinacolada",prix:27,comp: "mixer pinacolada, jus d’ananas, noix de coco"},
+            {name: "Lovely",prix:25,comp: "mixer forest fruit, jus fruit rouge "},
+            {name: "Diabolo",prix:28,comp: "mixer blue berry, mixer punch, sprite"},
+            {name: "Borra Borra",prix:27,comp: "citron, orange, fraise, fruit de passion, grenadille, ananas"},
+            {name: "Cocktail tropical fruit",prix:26,comp: "ananas, banane, mixer tropical"},
+            {name: "Smoothie aux fruit",prix:28,comp: "avocat, fraise, orange, une boule"},
+            {name: "Cocktail mango magic",prix:28,comp: "manguo purée, orange, mangue"},
+            {name: "X bébé smoothie",prix:27,comp: "blue berry, yaourt, 2 boules"},
         
         ],
         imgs:[
@@ -326,8 +328,8 @@ imgs:[
         {
             Title:'MOJITO',
             elements: [
-                {name: "Mojito nature",prix:23,comp: ",citron+menthe+mixer mujito"},
-                {name: "Mojito aromatisé",prix:26,comp: ",au choix fruit de passion/punch/fraise/forest fruit A LA BASE SPRITE OU OULMES"},
+                {name: "Mojito nature",prix:23,comp: "Citron, menthe, mixer mujito"},
+                {name: "Mojito aromatisé",prix:26,comp: "Au choix fruit de passion/punch/fraise/forest fruit"},
             
             ],
             imgs:[
