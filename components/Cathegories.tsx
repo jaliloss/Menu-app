@@ -54,8 +54,90 @@ const Cathegories = (props) => {
               
            
         </View>
+
+
+
+
     )
 }
+
+// const custumcat = (prop) => {
+   
+//     return(
+//         <View style={styles.container}>
+           
+//             <Card style={{ marginBottom:20, flex:1}}>
+//             <View style={styles.sliderContainer}>
+//                 <Swiper autoplay height={200}>
+                    
+//                     {
+//                         prop.Data.imgs.map(eld => (
+//                             <View style={styles.slide}>
+//                         <Image
+//                             source={eld}
+//                             resizeMode="cover"
+//                             style={styles.sliderImage}
+//                         />
+                        
+//                          </View>
+//                         ))
+//                     }
+//                 </Swiper>
+              
+//             </View>
+//             <Text style={styles.title}>{prop.Data.Title}</Text>
+//             <Text style={styles.soustitre}>{prop.Data.soustire}</Text>
+//                 <ScrollView style={{flex:1, marginBottom:5}}>
+//                 {
+//                    prop.Data.elements.map(eld => (
+
+//                     <View style={{
+//                         flex: 1,
+//                         width: 500,
+//                         height: 500,
+//                         justifyContent: 'space-between',
+                        
+//                       }}>
+//                         <View style={{
+//                           flex: 1,
+//                           width: 100,
+//                           height: 100,
+//                         }} />
+//                         <View style={{
+//                           flex: 1,
+//                           width: 100,
+//                           height: 100,
+//                         }} />
+//                         <View style={{
+//                           flex: 1,
+//                           width: 100,
+//                           height: 100,
+//                         }} />
+//                         <View style={{
+//                           flex: 1,
+//                           width: 100,
+//                           height: 100,
+//                         }} />
+//                       </View>
+                      
+                         
+
+//                     ))
+                    
+//                 }
+//                 </ScrollView>
+//             </Card>
+          
+           
+              
+           
+//         </View>
+
+
+
+
+//     )
+// }
 
 
 const styles = StyleSheet.create({
@@ -94,7 +176,17 @@ const styles = StyleSheet.create({
         marginBottom:20,
         paddingLeft:10
     
+    },
+    soustitre:{
+        color:'#953C1A',
+        fontSize:15,
+        fontWeight:'bold',
+        marginTop:5,
+        fontFamily:'monospace',
+        marginBottom:20,
+        paddingLeft:10
     }
+
 })
 
 export default Cathegories;
