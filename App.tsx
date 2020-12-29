@@ -284,7 +284,7 @@ const Data = [
       { name: "Jus de citron kiwi", prix: 20, comp: "" },
       { name: "Jus d’ananas kiwi citron", prix: 24, comp: "" },
     ],
-    imgs: [require("./assets/12.png"), require("./assets/7.png", require("./assets/19.png")],
+    imgs: [require("./assets/12.png"), require("./assets/7.png"), require("./assets/19.png")],
   },
   {
     Title: "COCKTAIL FROID",
@@ -494,7 +494,7 @@ const Data = [
       { name: "Paella 2 personne", prix: 80, comp: "" },
       { name: "Paella 3 personne", prix: 120, comp: "" },
     ],
-    imgs: [require("./assets/2.jpg")],
+    imgs: [require("./assets/2.png")],
   },
   {
     Title: "Plats de poissons",
@@ -533,7 +533,7 @@ const Data = [
         comp: "à la sauce tomate ou à l’ail",
       },
     ],
-    imgs: [require("./assets/rosito.jpeg"))],
+    imgs: [require("./assets/rosito.jpeg")],
   },
   {
     Title: "Fritures",
@@ -568,7 +568,7 @@ const Data = [
         comp: "",
       },
     ],
-    imgs: [require("./assets/22.ong")],
+    imgs: [require("./assets/2.png")],
   },
   {
     Title: "Plats Volailles",
