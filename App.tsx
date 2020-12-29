@@ -183,7 +183,8 @@ const Data = [
       { name: "Lait chaud", prix: 11 },
       { name: "Lait froid", prix: 10 },
     ],
-    imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
+    imgs: [require("./assets/cafe/0.jpg"), require("./assets/cafe/1.jpg")
+    , require("./assets/cafe/2.jpg"),, require("./assets/cafe/3.jpg")],
   },
 
   {
@@ -262,7 +263,7 @@ const Data = [
         comp: "avec créme chantilly",
       },
     ],
-    imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
+    imgs: [require("./assets/ch.jpg")],
   },
   {
     Title: "Jus",
@@ -283,7 +284,7 @@ const Data = [
       { name: "Jus de citron kiwi", prix: 20, comp: "" },
       { name: "Jus d’ananas kiwi citron", prix: 24, comp: "" },
     ],
-    imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
+    imgs: [require("./assets/12.png"), require("./assets/7.png", require("./assets/19.png")],
   },
   {
     Title: "COCKTAIL FROID",
@@ -302,7 +303,7 @@ const Data = [
         comp: "nutella, café au lait, créme chantilly",
       },
     ],
-    imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
+    imgs: [require("./assets/ice.jpg")],
   },
 
   {
@@ -356,7 +357,7 @@ const Data = [
         comp: "blue berry, yaourt, 2 boules",
       },
     ],
-    imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
+    imgs: [require("./assets/cafe/6.jpg"), require("./assets/cafe/1.jpg")],
   },
 
   {
@@ -369,7 +370,7 @@ const Data = [
         comp: "Au choix fruit de passion/punch/fraise/forest fruit",
       },
     ],
-    imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
+    imgs: [require("./assets/4.png")],
   },
   {
     Title: "Boisson",
@@ -392,7 +393,7 @@ const Data = [
       { name: "Schweppes mujito", prix: 16, comp: "" },
       { name: "Sweety", prix: 17, comp: "" },
     ],
-    imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
+    imgs: [require("./assets/or.jpg"), require("./assets/ou.jpg")],
   },
   {
     Title: "Salades",
@@ -445,7 +446,7 @@ const Data = [
           "Salade romaine, poulet, crouton, tomate cerise, fromage, mayonaise vietnamienne",
       },
     ],
-    imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
+    imgs: [require("./assets/0.jpg"), require("./assets/8.jpg")],
   },
   {
     Title: "Pasta",
@@ -461,7 +462,7 @@ const Data = [
         comp: "Fruit de mer, poisson blanc, surimi penné",
       },
     ],
-    imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
+    imgs: [require("./assets/17.png"), require("./assets/11.png")],
   },
   {
     Title: "Soupe",
@@ -484,7 +485,7 @@ const Data = [
           "bouillon de poulet, crevette, calamar, champignon, champignon noir",
       },
     ],
-    imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
+    imgs: [require("./assets/soupe.jpg")],
   },
   {
     Title: "Paella",
@@ -493,7 +494,7 @@ const Data = [
       { name: "Paella 2 personne", prix: 80, comp: "" },
       { name: "Paella 3 personne", prix: 120, comp: "" },
     ],
-    imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
+    imgs: [require("./assets/2.jpg")],
   },
   {
     Title: "Plats de poissons",
@@ -532,7 +533,7 @@ const Data = [
         comp: "à la sauce tomate ou à l’ail",
       },
     ],
-    imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
+    imgs: [require("./assets/rosito.jpeg"))],
   },
   {
     Title: "Fritures",
@@ -553,7 +554,7 @@ const Data = [
         comp: "Pageot royal rouget, sole, calamar, crevettes, merlan, moules",
       },
     ],
-    imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
+    imgs: [require("./assets/fr.jpg")],
   },
   {
     Title: "Plats Viandes",
@@ -567,7 +568,7 @@ const Data = [
         comp: "",
       },
     ],
-    imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
+    imgs: [require("./assets/22.ong")],
   },
   {
     Title: "Plats Volailles",
@@ -592,7 +593,7 @@ const Data = [
           "Fillet de boeuf et blanc poulet avec sauce au choix sauc champignon/requefort/poivre",
       },
     ],
-    imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
+    imgs: [require("./assets/15.png")],
   },
   {
     Title: "Brochettes",
@@ -602,7 +603,7 @@ const Data = [
       { name: "Merguez", prix: 55, comp: "" },
       { name: "Mixte", prix: 65, comp: "" },
     ],
-    imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
+   imgs: [require("./assets/15.png")],
   },
 
   {
@@ -986,6 +987,9 @@ const Data = [
                     require('./assets/pic5.jpg'),
                     ]
                     },
+
+
+                   
         
 
 ];

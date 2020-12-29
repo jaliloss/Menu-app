@@ -61,84 +61,61 @@ const Cathegories = (props) => {
     )
 }
 
-// const custumcat = (prop) => {
-   
-//     return(
-//         <View style={styles.container}>
-           
-//             <Card style={{ marginBottom:20, flex:1}}>
-//             <View style={styles.sliderContainer}>
-//                 <Swiper autoplay height={200}>
-                    
-//                     {
-//                         prop.Data.imgs.map(eld => (
-//                             <View style={styles.slide}>
-//                         <Image
-//                             source={eld}
-//                             resizeMode="cover"
-//                             style={styles.sliderImage}
-//                         />
-                        
-//                          </View>
-//                         ))
-//                     }
-//                 </Swiper>
-              
-//             </View>
-//             <Text style={styles.title}>{prop.Data.Title}</Text>
-//             <Text style={styles.soustitre}>{prop.Data.soustire}</Text>
-//                 <ScrollView style={{flex:1, marginBottom:5}}>
-//                 {
-//                    prop.Data.elements.map(eld => (
 
-//                     <View style={{
-//                         flex: 1,
-//                         width: 500,
-//                         height: 500,
-//                         justifyContent: 'space-between',
-                        
-//                       }}>
-//                         <View style={{
-//                           flex: 1,
-//                           width: 100,
-//                           height: 100,
-//                         }} />
-//                         <View style={{
-//                           flex: 1,
-//                           width: 100,
-//                           height: 100,
-//                         }} />
-//                         <View style={{
-//                           flex: 1,
-//                           width: 100,
-//                           height: 100,
-//                         }} />
-//                         <View style={{
-//                           flex: 1,
-//                           width: 100,
-//                           height: 100,
-//                         }} />
-//                       </View>
-                      
-                         
 
-//                     ))
-                    
-//                 }
-//                 </ScrollView>
-//             </Card>
-          
-           
-              
-           
-//         </View>
+const Cath = (prop) => {
+
+    return(
+        <View style={styles.container}>
+
+            <Card style={{ marginBottom:20, flex:1}}>
+                <View style={styles.sliderContainer}>
+                    <Swiper autoplay height={200}>
+
+                        {
+                            prop.Data.imgs.map(el => (
+                                <View style={styles.slide}>
+                                    <Image
+                                        source={el}
+                                        resizeMode="cover"
+                                        style={styles.sliderImage}
+                                    />
+
+                                </View>
+                            ))
+                        }
+                    </Swiper>
+
+                </View>
+                <Text style={styles.title}>{prop.Data.Title}</Text>
+                <ScrollView style={{flex:1, marginBottom:5}}>
+                    {
+                        prop.Data.elements.map(el => (
+                            <View style={{flex:1, flexDirection:"column", paddingHorizontal:10}}>
+                                <View style={{ flexDirection:'row', justifyContent:'space-between', marginTop:10}}>
+                                    <Text style={{color:'#953C1A', fontSize:15, fontWeight:'bold'}}>{el.name}</Text>
+                                    <Text>{el.prix} DH</Text>
+                                    //hna ziid li bghit
+                                    <Text>{el.prix2} DH</Text>
+                                    <Text>{el.prix3} DH</Text>
+                                </View>
+                                <Text style={{fontSize:10}}>{el.comp}</Text>
+
+                            </View>
+
+
+                        ))
+
+                    }
+                </ScrollView>
+            </Card>
 
 
 
 
-//     )
-// }
-
+        </View>
+    )
+}
 
 const styles = StyleSheet.create({
     container:{
