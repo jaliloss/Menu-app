@@ -14,23 +14,23 @@ const Data = [
       {
         name: "Omelette au Jambon",
         prix: 26,
-        comp: "2Œufs, huile d’olive, olive noir, jambon, pain",
+        comp: "2 Œufs, huile d’olive, olive noir, jambon, pain",
       },
       {
         name: "Omelette au Champignon",
         prix: 17,
-        comp: "2Œufs, huile d’olive, olive noir, champignon, pain",
+        comp: "2 Œufs, huile d’olive, olive noir, champignon, pain",
       },
       {
         name: "Omlette Espagnole ",
         prix: 19,
         comp:
-          "2Œefs, poivron rouge et vert, oignon, tomate, huile d’olive, olive noir, fromage, pain",
+          "2 Œufs, poivron rouge et vert, oignon, tomate, huile d’olive, olive noir, fromage, pain",
       },
       {
-        name: "Omlette crevette :",
+        name: "Omlette crevette ",
         prix: 19,
-        comp: "2Œufs, crevette, huile d’olive, olive noir, fromage, pain",
+        comp: "2 Œufs, crevette, huile d’olive, olive noir, fromage, pain",
       },
       {
         name: "Cake aux choix",
@@ -40,34 +40,34 @@ const Data = [
       {
         name: "Fassi",
         prix: 22,
-        comp: "2Œufs, khlie, pain",
+        comp: "2 Œufs, khlie, pain",
       },
       {
         name: "Chakchoucka à l’œuf",
         prix: 25,
-        comp: "Boisson ,  Eau sidi Ali",
+        comp: "Boisson, Eau sidi Ali",
       },
       {
         name: "Chakchouka",
         prix: 25,
-        comp: "2Œefs, tomate, khlie, huile d’olive, olive noir, pain",
+        comp: "2 Œufs, tomate, khlie, huile d’olive, olive noir, pain",
       },
       {
         name: "Catalan",
         prix: 25,
-        comp: "Tranche espagnol, 1oeuf, huile d’olive, olive noir, pain",
+        comp: "Tranche espagnol, Œuf, huile d’olive, olive noir, pain",
       },
       {
         name: "Croque damme",
         prix: 25,
         comp:
-          "3pain demi, 1ouef, fromage rappé, jombon, huile d’olive, olive noir",
+          "3 Pain demi, 1 Œuf, fromage rappé, jombon, huile d’olive, olive noir",
       },
       {
         name: "Croque monsieur",
         prix: 25,
         comp:
-          "4pain demi, 2Œufs, fromage rappé, jombon, huile d’olive, olive noir",
+          "4 Pain demi, 2 Œufs, fromage rappé, jombon, huile d’olive, olive noir",
       },
       {
         name: "Marocain",
@@ -76,58 +76,58 @@ const Data = [
           "Harcha, maloui, huile d’olive, olive noir, fromage, miel, confiture",
       },
       {
-        name: "Brunch :",
+        name: "Brunch ",
         prix: 22,
         comp:
-          "pain blédure, sauce tomate, jombon, fromage, origan, huile d’olive, olive noir",
+          "Pain blédure, Sauce tomate, jombon, fromage, origan, huile d’olive, olive noir",
       },
       {
-        name: "Beldi Gold :",
+        name: "Beldi Gold ",
         prix: 22,
-        comp: "amlou, huile d’olive, olive noir, jben, pain grillé",
+        comp: "Amlou, huile d’olive, olive noir, jben, pain grillé",
       },
       {
-        name: "Kids enfants :",
+        name: "Kids enfants ",
         prix: 22,
-        comp: "conflex, lait froid, l’eau, crépe sucrée",
+        comp: "Conflex, lait froid, l’eau, crépe sucrée",
       },
       {
-        name: "Parisien :",
+        name: "Parisien ",
         prix: 22,
-        comp: "pannier de 3 mini viennoiserie",
+        comp: "Pannier de 3 mini viennoiserie",
       },
       {
-        name: "Assitana :",
+        name: "Assitana ",
         prix: 22,
-        comp: "Omlette ,  3merguez, club sandwich, gaufre, panna-cotta",
+        comp: "Omlette, 3 merguez, club sandwich, gaufre, panna-cotta",
       },
       {
-        name: "Le light :",
+        name: "Le light ",
         prix: 22,
-        comp: "toast grillé, fromage, fillet de dinde fumé, huile d’olive",
+        comp: "Toast grillé, fromage, fillet de dinde fumé, huile d’olive",
       },
       {
-        name: "Toast :",
-        prix: 22,
-        comp:
-          "toast grille aux choix : confiture,amlou,beure,fromage,miel,nutella",
-      },
-      {
-        name: "Gourmand :",
+        name: "Toast ",
         prix: 22,
         comp:
-          "Omlette, 3tranche tortiné jben,nutella,confiture,  3pain cake au fruit de saison, pomme noisette, panna-cotta",
+          "Toast grille aux choix : confiture,amlou,beure,fromage,miel,nutella",
       },
       {
-        name: "Royal :",
+        name: "Gourmand ",
         prix: 22,
         comp:
-          "2mini batbout au jambon œuf, fruit de saison, creme amande , pomme noisette, panna-cotta",
+          "Omlette, 3tranche tortiné jben,nutella,confiture,  3pain cake au Fruit de saison, pomme noisette, panna-cotta",
       },
       {
-        name: "Rfissa :",
+        name: "Royal ",
         prix: 22,
-        comp: "2harcha complet, fruit sec, huile d’olive",
+        comp:
+          "2 Mini batbout au jambon œuf, Fruit de saison, creme amande , pomme noisette, panna-cotta",
+      },
+      {
+        name: "Rfissa ",
+        prix: 22,
+        comp: "2 Harcha complet, Fruit sec, huile d’olive",
       },
     ],
     imgs: [
@@ -137,7 +137,7 @@ const Data = [
     ],
   },
   {
-    Title: "SALON DE THE",
+    Title: "Salon de thé",
     elements: [
       {
         name: "Café noir",
@@ -179,7 +179,7 @@ const Data = [
         prix: 13,
       },
       { name: "Tisane verveine", prix: 11 },
-      { name: "Lait au chocolat", prix: 11 },
+      { name: "Lait au Chocolat", prix: 11 },
       { name: "Lait chaud", prix: 11 },
       { name: "Lait froid", prix: 10 },
     ],
@@ -188,7 +188,7 @@ const Data = [
   },
 
   {
-    Title: " SUPPLEMENT",
+    Title: "Supplement",
     elements: [
       { name: "Soupe marocaine (tchicha)", prix: 9 },
       { name: "Amlou", prix: 12 },
@@ -206,12 +206,12 @@ const Data = [
       { name: "Fromage fondu", prix: 2 },
       { name: "Jben", prix: 8 },
       { name: "Tranche espagnole", prix: 9 },
-      { name: "Créme chantilly", prix: 5 },
-      { name: "Pain au chocolat", prix: 6 },
+      { name: "Créme Chantilly", prix: 5 },
+      { name: "Pain au Chocolat", prix: 6 },
       { name: "Créme amandes", prix: 8 },
       { name: "Baghrir", prix: 2 },
       { name: "Tost fromage", prix: 16 },
-      { name: "Croque dame/mr", prix: 21 },
+      { name: "Croque Damme / Monsieur", prix: 21 },
       { name: "Fassi", prix: 21 },
       { name: "Pannier de mini vinoiserie", prix: 11 },
       { name: "Lelight", prix: 19 },
@@ -227,134 +227,135 @@ const Data = [
     imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
   },
   {
-    Title: "Cocktails cafe chaud",
+    Title: "Cocktails Café Chaud",
     elements: [
       {
         name: "Café cookies",
         prix: 22,
-        comp: "mixer cookies, lait, café, Créme Chantilly",
+        comp: "Mixer cookies, lait, Café, Créme Chantilly",
       },
       {
         name: "Vanilla coffée",
         prix: 22,
-        comp: "mixer vanille, lait, café, créme chantilly",
+        comp: "Mixer vanille, lait, Café, créme Chantilly",
       },
       {
         name: "Caramelo mocha",
         prix: 22,
-        comp: "mixer chocolat, mixer caramel, lait, café, créme chantilly",
+        comp: "Mixer Chocolat, Mixer Caramel, lait, Café, créme Chantilly",
       },
       {
         name: "Mokaccino",
         prix: 22,
-        comp: "nutella, café allongé, Créme chantilly",
+        comp: "Nutella, Café allongé, Créme Chantilly",
       },
       {
         name: "Cappuccino",
         prix: 23,
-        comp: "chocolat, caramel, café, crème Chantilly",
+        comp: "Chocolat, Caramel, Café, crème Chantilly",
       },
-      { name: "Cappuccino light", prix: 18, comp: "chocolat, caramel, café" },
-      { name: "Nutella chaud", prix: 22, comp: "avec créme chantilly" },
-      { name: "Chocolat chaud à l’ancienne", prix: 18, comp: "" },
+      { name: "Cappuccino light", prix: 18, comp: "Chocolat, Caramel, Café" },
+      { name: "Nutella chaud", prix: 22, comp: "Avec Créme Chantilly" },
       {
         name: "Chocolat liegeois à l’ancienne ",
         prix: 22,
-        comp: "avec créme chantilly",
+        comp: "Avec Créme Chantilly",
       },
+      { name: "Chocolat chaud à l’ancienne", prix: 18, comp: "" },
+
     ],
     imgs: [require("./assets/ch.jpg")],
   },
   {
     Title: "Jus",
     elements: [
-      { name: "Jus orange", prix: 17, comp: "" },
-      { name: "Jus de citron", prix: 18, comp: "" },
+      { name: "Jus Orange", prix: 17, comp: "" },
+      { name: "Jus de Citron", prix: 18, comp: "" },
       { name: "Jus de pomme", prix: 21, comp: "Base de lait : 17 DH" },
       { name: "Jus de banane", prix: 21, comp: "Base de lait : 17 DH" },
       { name: "Jus d’avocat", prix: 23, comp: "Base de lait : 21 DH" },
       { name: "Jus de péche", prix: 22, comp: "" },
-      { name: "Jus d’ananas", prix: 22, comp: "" },
+      { name: "Jus d’Ananas", prix: 22, comp: "" },
       { name: "Jus de carotte", prix: 20, comp: "" },
-      { name: "Jus gingembres citron", prix: 23, comp: "" },
+      { name: "Jus gingembres Citron", prix: 23, comp: "" },
       { name: "Jus Fraise", prix: 19, comp: "Base de lait : 16 DH" },
-      { name: "Cocktail fruit frais", prix: 27, comp: "Base de lait : 24 DH" },
-      { name: "Cocktail fruit sec", prix: 31, comp: "Base de lait : 27 DH" },
+      { name: "Cocktail Fruit frais", prix: 27, comp: "Base de lait : 24 DH" },
+      { name: "Cocktail Fruit sec", prix: 31, comp: "Base de lait : 27 DH" },
       { name: "Cocktail assitana", prix: 32, comp: "Base de lait : 30 DH" },
-      { name: "Jus de citron kiwi", prix: 20, comp: "" },
-      { name: "Jus d’ananas kiwi citron", prix: 24, comp: "" },
+      { name: "Jus de Citron kiwi", prix: 20, comp: "" },
+      { name: "Jus d’Ananas kiwi Citron", prix: 24, comp: "" },
     ],
-    imgs: [require("./assets/12.png"), require("./assets/7.png", require("./assets/19.png")],
+    imgs: [require("./assets/12.png"), require("./assets/7.png"), require("./assets/19.png")],
   },
   {
-    Title: "COCKTAIL FROID",
+    Title: "Cocktail Froid",
     elements: [
-      { name: "Frapuccino ice", prix: 23, comp: ", " },
+      { name: "Frapuccino ice", prix: 23, comp: "" },
       {
         name: "Marroccino ice coffée",
         prix: 16,
-        comp: ",nutella, cookies, café au lait",
+        comp: "Nutella, cookies, Café au lait",
       },
-      { name: "Vanilla ice coffée", prix: 11, comp: "vanille" },
-      { name: "Cappucino ice", prix: 13, comp: "café, caramel, lait" },
+      { name: "Vanilla ice coffée", prix: 11, comp: "Vanille" },
+      { name: "Cappucino ice", prix: 13, comp: "Café, Caramel, lait" },
       {
         name: "Mocaccino ice",
         prix: 13,
-        comp: "nutella, café au lait, créme chantilly",
+        comp: "Nutella, Café au lait, créme Chantilly",
       },
     ],
     imgs: [require("./assets/ice.jpg")],
   },
 
   {
-    Title: "COCKTAIL DE PASSION",
+    Title: "Cocktail De Passion",
     elements: [
-      { name: "Punch", prix: 23, comp: "orange, mixer punch, citron, ananas" },
-      { name: "Fruit de passion", prix: 25, comp: "orange, fruit de passion" },
+      { name: "Punch", prix: 23, comp: "Orange, Mixer punch, Citron, Ananas" },
+      { name: "Fruit de passion", prix: 25, comp: "Orange, Fruit de passion" },
       {
         name: "Florida",
         prix: 25,
-        comp: "mixer tropical, orange ou citron , noix de coco",
+        comp: "Mixer tropical, Orange ou Citron , noix de coco",
       },
       {
         name: "Pinacolada",
         prix: 27,
-        comp: "mixer pinacolada, jus d’ananas, noix de coco",
+        comp: "Mixer pinacolada, Jus d’Ananas, noix de coco",
       },
       {
         name: "Lovely",
         prix: 25,
-        comp: "mixer forest fruit, jus fruit rouge ",
+        comp: "Mixer forest Fruit, Jus Fruit rouge ",
       },
       {
         name: "Diabolo",
         prix: 28,
-        comp: "mixer blue berry, mixer punch, sprite",
+        comp: "Mixer blue berry, Mixer punch, sprite",
       },
       {
         name: "Borra Borra",
         prix: 27,
-        comp: "citron, orange, fraise, fruit de passion, grenadille, ananas",
+        comp: "Citron, Orange, fraise, Fruit de passion, grenadille, Ananas",
       },
       {
-        name: "Cocktail tropical fruit",
+        name: "Cocktail tropical Fruit",
         prix: 26,
-        comp: "ananas, banane, mixer tropical",
+        comp: "Ananas, banane, Mixer tropical",
       },
       {
-        name: "Smoothie aux fruit",
+        name: "Smoothie aux Fruit",
         prix: 28,
-        comp: "avocat, fraise, orange, une boule",
+        comp: "Avocat, fraise, Orange, une boule",
       },
       {
         name: "Cocktail mango magic",
         prix: 28,
-        comp: "manguo purée, orange, mangue",
+        comp: "Manguo purée, Orange, mangue",
       },
       {
         name: "X bébé smoothie",
         prix: 27,
-        comp: "blue berry, yaourt, 2 boules",
+        comp: "Blue berry, Yaourt, 2 boules",
       },
     ],
     imgs: [require("./assets/cafe/6.jpg"), require("./assets/cafe/1.jpg")],
@@ -363,11 +364,11 @@ const Data = [
   {
     Title: "Mojito",
     elements: [
-      { name: "Mojito nature", prix: 23, comp: "Citron, menthe, mixer mujito" },
+      { name: "Mojito nature", prix: 23, comp: "Citron, menthe, Mixer mujito" },
       {
         name: "Mojito aromatisé",
         prix: 26,
-        comp: "Au choix fruit de passion/punch/fraise/forest fruit",
+        comp: "Au choix Fruit de passion/punch/fraise/forest Fruit",
       },
     ],
     imgs: [require("./assets/4.png")],
@@ -402,48 +403,48 @@ const Data = [
         name: "Salade assitana",
         prix: 50,
         comp:
-          "salade verte, carotte, choux, surimi, fruits de mer, crevette pané, ebly, mayonnaise vietnamienne",
+          "Salade verte, carotte, choux, surimi, Fruits de mer, crevette pané, ebly, mayonnaise vietnamienne",
       },
       {
         name: "Salade du chef",
         prix: 45,
         comp:
-          "salade verte, fruits de mer, coeur de palmier, ananas, haricot rouge, mayonnaise vietnamienne",
+          "Salade verte, Fruits de mer, coeur de palmier, Ananas, haricot rouge, mayonnaise vietnamienne",
       },
       {
         name: "Salade avocat crevettes",
         prix: 38,
-        comp: "salade verte, avocat, crevettes, sauce cocktail",
+        comp: "Salade verte, avocat, crevettes, Sauce cocktail",
       },
       {
         name: "Salade de pates",
         prix: 38,
         comp:
-          "Les pates, thon, fromage, olive verte, maiz, olive noir, concombre, tomate cerise, artichaut, sauce blanche",
+          "Les pates, thon, fromage, olive verte, maiz, olive noir, concombre, tomate cerise, artichaut, Sauce blanche",
       },
       {
         name: "Salade fraicheur",
         prix: 37,
         comp:
-          "Salade verte, poulet, jambon, tomate, coeur de palmier, mozzarella, raisin sec, noix, oeuf, sauce blanche",
+          "Salade verte, Poulet, jambon, tomate, coeur de palmier, mozzarella, raisin sec, noix, oeuf, Sauce blanche",
       },
       {
         name: "Salade variée",
         prix: 35,
         comp:
-          "salade verte, tomate, pomme de terre, carottes, thon, haricot vert, riz, anchois, olives vertes, ouefs, sauce blanche",
+          "Salade verte, tomate, pomme de terre, carottes, thon, haricot vert, riz, anchois, olives vertes, ouefs, Sauce blanche",
       },
       {
         name: "Salade exotiques",
         prix: 35,
         comp:
-          "Salade verte, choux, carotte, fruit fraiche, crevette, mayonnaise vietnamienne",
+          "Salade verte, choux, carotte, Fruit fraiche, crevette, mayonnaise vietnamienne",
       },
       {
         name: "Salade cesar",
         prix: 35,
         comp:
-          "Salade romaine, poulet, crouton, tomate cerise, fromage, mayonaise vietnamienne",
+          "Salade romaine, Poulet, crouton, tomate cerise, fromage, mayonaise vietnamienne",
       },
     ],
     imgs: [require("./assets/0.jpg"), require("./assets/8.jpg")],
@@ -457,7 +458,7 @@ const Data = [
       { name: "Fruits de mer", prix: 55, comp: "Sauce blanche" },
       { name: "Lasagne bolognaise", prix: 50, comp: "Sauce tomate" },
       {
-        name: "Gratin fruit de mer",
+        name: "Gratin Fruit de mer",
         prix: 55,
         comp: "Fruit de mer, poisson blanc, surimi penné",
       },
@@ -471,18 +472,18 @@ const Data = [
       {
         name: "Soupe assitana",
         prix: 60,
-        comp: "bouillon poulet, crevettes, farce de nems, champignon noir",
+        comp: "Bouillon Poulet, crevettes, farce de nems, champignon noir",
       },
       {
         name: "Soupe pékinois",
         prix: 50,
-        comp: "bouillon de poulet, légumes, poulet aigre piquante",
+        comp: "Bouillon de Poulet, légumes, Poulet aigre piquante",
       },
       {
-        name: "Soupe de fruit de mer",
+        name: "Soupe de Fruit de mer",
         prix: 50,
         comp:
-          "bouillon de poulet, crevette, calamar, champignon, champignon noir",
+          "Bouillon de Poulet, crevette, calamar, champignon, champignon noir",
       },
     ],
     imgs: [require("./assets/soupe.jpg")],
@@ -494,7 +495,7 @@ const Data = [
       { name: "Paella 2 personne", prix: 80, comp: "" },
       { name: "Paella 3 personne", prix: 120, comp: "" },
     ],
-    imgs: [require("./assets/2.jpg")],
+    imgs: [require("./assets/pae.jpg"), require("./assets/2.png")],
   },
   {
     Title: "Plats de poissons",
@@ -504,23 +505,23 @@ const Data = [
       { name: "Loup à la plancha", prix: 85, comp: "" },
       { name: "Pavé de saumon", prix: 90, comp: "" },
     ],
-    imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
+    imgs: [require("./assets/poisson1.jpg"), require("./assets/poisson2.jpg")],
   },
   {
     Title: "Risotto",
     elements: [
       {
-        name: "Risotto fruit de mer",
+        name: "Risotto Fruit de mer",
         prix: 55,
-        comp: "Riz, fruit de mer, champignon, sauce blanche",
+        comp: "Riz, Fruit de mer, champignon, Sauce blanche",
       },
       {
-        name: "Risotto poulet",
+        name: "Risotto Poulet",
         prix: 50,
-        comp: "Riz, poulet, champignon, sauce blanche",
+        comp: "Riz, Poulet, champignon, Sauce blanche",
       },
     ],
-    imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
+    imgs: [require("./assets/risoto1.jpg"), require("./assets/risoto2.jpg")],
   },
   {
     Title: "Ration",
@@ -530,10 +531,10 @@ const Data = [
       {
         name: "Crevette pil pil",
         prix: 50,
-        comp: "à la sauce tomate ou à l’ail",
+        comp: "à la Sauce tomate ou à l’ail",
       },
     ],
-    imgs: [require("./assets/rosito.jpeg"))],
+    imgs: [require("./assets/rosito.jpeg")],
   },
   {
     Title: "Fritures",
@@ -554,7 +555,7 @@ const Data = [
         comp: "Pageot royal rouget, sole, calamar, crevettes, merlan, moules",
       },
     ],
-    imgs: [require("./assets/fr.jpg")],
+    imgs: [require("./assets/fr.jpg"), require("./assets/fri.jpg")],
   },
   {
     Title: "Plats Viandes",
@@ -563,37 +564,38 @@ const Data = [
       { name: "Entre cote", prix: 70, comp: "" },
       { name: "Emincé de boeuf", prix: 70, comp: "" },
       {
-        name: "Souris d’agneau (suite à basse température)",
+        name: "Souris d’agneau",
         prix: 80,
-        comp: "",
+        comp: "Suite à basse température",
       },
     ],
-    imgs: [require("./assets/22.ong")],
+    imgs: [require("./assets/filet.jpg"),require("./assets/cote.jpg"),require("./assets/emin.jpeg"),require("./assets/souri.jpeg")],
   },
   {
     Title: "Plats Volailles",
     elements: [
-      { name: "Roulade de poulet", prix: 70, comp: "sauce blanche" },
+      { name: "Roulade de Poulet", prix: 70, comp: "Sauce blanche" },
       {
-        name: "Emincé de poulet",
+        name: "Emincé de Poulet",
         prix: 70,
-        comp: "sauce champignon ou sauce roquefort",
+        comp: "Sauce champignon ou Sauce roquefort",
       },
-      { name: "Blanc de poulet panné à l’anglaise", prix: 60, comp: "" },
+      { name: "Blanc de Poulet panné à l’anglaise", prix: 60, comp: "" },
       {
         name: "Poulet aigre doux",
         prix: 65,
         comp:
-          "Poulet, poivron, champignon, ananas servi avec légumes, riz et sauce aigre doux",
+          "Poulet, poivron, champignon, Ananas servi avec légumes, riz et Sauce aigre doux",
       },
+    
       {
-        name: "Plat spécial Assitana",
+        name: "Plat Spécial Assitana",
         prix: 80,
         comp:
-          "Fillet de boeuf et blanc poulet avec sauce au choix sauc champignon/requefort/poivre",
+          "Fillet de Bœuf et blanc Poulet, Sauce au choix : Sauce champignon/requefort/poivre (Servi avec garniture)",
       },
     ],
-    imgs: [require("./assets/15.png")],
+    imgs: [require("./assets/15.png"),require("./assets/vol.jpg")],
   },
   {
     Title: "Brochettes",
@@ -603,22 +605,8 @@ const Data = [
       { name: "Merguez", prix: 55, comp: "" },
       { name: "Mixte", prix: 65, comp: "" },
     ],
-   imgs: [require("./assets/15.png")],
+   imgs: [require("./assets/broch.jpeg"),require("./assets/brochh.jpg"),require("./assets/broc.png")],
   },
-
-  {
-    Title: "PLATS SPECIAL ASSITANA",
-    elements: [
-      {
-        name: "champignon/requefort /poivre ",
-        prix: 80,
-        comp:
-          "Servi avec garniture Fillet de bœuf et blanc poulet avec sauce au choix sauce ",
-      },
-    ],
-    imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
-  },
-
   {
     Title: "Asiatique",
     elements: [
@@ -626,14 +614,14 @@ const Data = [
         name: "Rouleux de printemps",
         prix: 40,
         comp:
-          "Galette de riz+légumes+poulet+crevette+surimi+menthe+cacouette+sauce vietnamienne",
+          "Galette de riz, légumes, Poulet, crevette, surimi, menthe, cacouette, Sauce vietnamienne",
       },
     ],
-    imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
+    imgs: [require("./assets/rol.jpg")],
   },
 
   {
-    Title: "LES NOUILLES",
+    Title: "Nouilles",
     elements: [
       { name: "Nouilles Bœuf", prix: 65, comp: "" },
       { name: "Nouilles Poulet", prix: 60, comp: "" },
@@ -641,224 +629,225 @@ const Data = [
       {
         name: "Riz cantonais vietnamienne",
         prix: 70,
-        comp: "Riz+crevettes+poulet+poivron+champignon+carottes",
+        comp: "Riz, crevettes, Poulet, poivron, champignon, carottes",
       },
       {
         name: "Riz saute crevettes vietnamienne",
         prix: 65,
-        comp: "Riz+crevettes avec epices vietnamiennes",
+        comp: "Riz, crevettes avec epices vietnamiennes",
       },
     ],
-    imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
+    imgs: [require("./assets/nol.jpg"), require("./assets/nol2.jpg")],
   },
 
   {
-    Title: "SIZZLING",
+    Title: "Sizzling",
     elements: [
       {
-        name: "Poulet sizzling :",
+        name: "Poulet sizzling ",
         prix: 70,
-        comp: "poulet+champignon+épice vietnamienne(plaque chaufante)",
+        comp: "Poulet, champignon, épice vietnamienne(plaque chaufante)",
       },
       {
-        name: "Bœuf sizzling :",
+        name: "Bœuf sizzling ",
         prix: 75,
-        comp: "bœuf+champignon+épice vietnamienne(plaque chaufante)",
+        comp: "Bœuf, champignon, épice vietnamienne(plaque chaufante)",
       },
       {
-        name: "Fruit de mer sizzling :",
+        name: "Fruit de mer sizzling ",
         prix: 80,
         comp:
-          "fruit de mer+poisson blanc+champignon+épice vietnamienne(plaque chaufante)",
+          "Fruit de mer, poisson blanc, champignon, épice vietnamienne (plaque chaufante)",
       },
     ],
-    imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
+    imgs: [require("./assets/siz.jpg"), require("./assets/siz2.jpg"),require("./assets/siz3.jpg")],
   },
 
   {
-    Title: "SPECIALITE MAROCAINE",
+    Title: "Spécialité Marocaine",
     elements: [
       {
-        name: "Tajine de bœuf:",
+        name: "Tajine de Bœuf",
         prix: 55,
-        comp: "viande+pruneau+amande+œufs+oignon",
+        comp: "Viande, pruneau, amande, œufs, oignon",
       },
       {
-        name: "Tajine de poulet:",
+        name: "Tajine de Poulet",
         prix: 45,
-        comp: "oulet+citron confit+olives+frites",
+        comp: "Poulet, Citron confit, olives, frites",
       },
     ],
-    imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
+    imgs: [require("./assets/taj.jpg"), require("./assets/taj2.jpg")],
   },
   {
-    Title: "COUSCOUS CHAQUE VENDREDI",
+    Title: "Couscous \n'Chaque Vendredi' ",
     elements: [
       {
-        name: "Couscous viande",
+        name: "Couscous Viande",
         prix: 50,
-        comp: "viande+légumes  servi avec lben",
+        comp: "Viande, légumes (servi avec lben)",
       },
       {
         name: "Couscous tfaya",
         prix: 50,
-        comp: "viande+tfaya servi avec lben",
+        comp: "Viande, tfaya (servi avec lben)",
       },
       {
-        name: "Couscous de poulet",
+        name: "Couscous de Poulet",
         prix: 45,
-        comp: "poulet+légumes servi avec lben",
+        comp: "Poulet, légumes (servi avec lben)",
       },
       {
         name: "Couscous tfaya",
         prix: 45,
-        comp: "poulet+tfaya servi avec lben",
+        comp: "Poulet, tfaya (servi avec lben)",
       },
     ],
-    imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
+    imgs: [require("./assets/cous.jpg"), require("./assets/cous2.jpg")],
   },
 
   {
-    Title: "FAST FOOD",
+    Title: "Fast Food",
     elements: [
       {
-        name: "SANDWICH PAIN MAISON OU PAIN TORTILLA SERVI AVEC FRITES)",
-        prix: "",
+        name: "SANDWICH PAIN MAISON OU PAIN TORTILLA (SERVI AVEC FRITES)",
         comp: "",
       },
       {
         name: "Parisien",
         prix: 42,
         comp:
-          "salade tomate+cheddar+jambon+double steak+ouefs+sauce au choix avec pain maison ou tortilla",
+          "Salade tomate, cheddar, jambon, double steak, ouefs, Sauce au choix avec pain maison ou tortilla",
       },
       {
         name: "Royal",
         prix: 42,
         comp:
-          "salade+tomate+cheddar+steak+poulet mariné+sauce au choix avec pain maison ou tortilla",
+          "Salade, tomate, cheddar, steak, Poulet mariné, Sauce au choix avec pain maison ou tortilla",
       },
       {
         name: "Assitana",
         prix: 45,
         comp:
-          "salade+tomate+cheddar+dinde+steak+galette pomme de terre sauce au choix avec pain maison ou tortilla",
+          "Salade, tomate, cheddar, dinde, steak, galette pomme de terre Sauce au choix avec pain maison ou tortilla",
       },
       {
         name: "Ciabatta Dinde",
         prix: 38,
         comp:
-          "salade tomate+cheddar+escalope de dinde+jambon+sauce au choix avec pain ciabatta",
+          "Salade tomate, cheddar, escalope de dinde, jambon, Sauce au choix avec pain ciabatta",
       },
       {
         name: "Ciabatta Viande hachée",
         prix: 40,
         comp:
-          "salade tomate+cheddar+viande hachée+sauce au choix avec pain ciabatta",
+          "Salade tomate, cheddar, Viande hachée, Sauce au choix avec pain ciabatta",
       },
       {
         name: "Ciabatta Tender",
         prix: 42,
         comp:
-          "salade tomate+cheddar+escalope de dinde+jambon+tender+sauce au choix avec pain ciabatta",
+          "Salade tomate, cheddar, escalope de dinde, jambon, tender, Sauce au choix avec pain ciabatta",
       },
     ],
-    imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
+    imgs: [require("./assets/san1.jpg"), require("./assets/san.jpg"), require("./assets/san1.jpeg")],
   },
 
   {
-    Title: "BURGER",
+    Title: "Burger",
     elements: [
-      { name: "SERVI AVEC FRITES", prix: "", comp: "" },
+      { name: "SERVI AVEC FRITES", comp: "" },
       {
         name: "Chesse burguer",
         prix: 30,
-        comp: "salade+tomate+cheddar+steak+sauce au choix",
+        comp: "Salade, tomate, cheddar, steak, Sauce au choix",
       },
       {
         name: "Double cheese",
         prix: 35,
-        comp: "salade+tomate+double fromage+double steak+sauce au choix",
+        comp: "Salade, tomate, double fromage, double steak, Sauce au choix",
       },
       {
         name: "Chicken burguer",
         prix: 30,
-        comp: "salade+tomate+cheddar+poulet",
+        comp: "Salade, tomate, cheddar, Poulet",
       },
       {
         name: "Eggs burguer",
         prix: 38,
-        comp: "salade+tomate+cheddar+jambon+steak+ouefs+sauce au choix",
+        comp: "Salade, tomate, cheddar, jambon, steak, ouefs, Sauce au choix",
       },
       {
         name: "Assitana burguer",
         prix: 42,
         comp:
-          "salade+tomate+cheddar+galette pommes de terre+steak+jombon+sauce au choix",
+          "Salade, tomate, cheddar, galette pommes de terre, steak, jombon, Sauce au choix",
       },
     ],
-    imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
+    imgs: [require("./assets/bur.jpg"), require("./assets/bur1.jpg")],
   },
 
   {
-    Title: "POUTINE",
+    Title: "Poutine",
     elements: [
       {
         name: "Poutine dinde",
         prix: 30,
-        comp: "dinde+frite+fromage+sauce fromagére",
+        comp: "Dinde, frite, fromage, Sauce fromagére",
       },
       {
-        name: "Poutine viande hachée",
+        name: "Poutine Viande hachée",
         prix: 32,
-        comp: "viande hachée+frite+fromage+sauce fromagére",
+        comp: "Viande hachée, frite, fromage, Sauce fromagére",
       },
       {
         name: "Poutine mixte",
         prix: 35,
-        comp: "dinde+viande hachée+frite+fromage+sauce froagére",
+        comp: "Dinde, Viande hachée, frite, fromage, Sauce froagére",
       },
     ],
-    imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
+    imgs: [require("./assets/pout.jpg"), require("./assets/pout1.jpeg")],
   },
 
   {
-    Title: "NUGGET",
+    Title: "Nugget",
     elements: [
       { name: "6 piéces", prix: 20, comp: "" },
       { name: "10 piéces", prix: 30, comp: "" },
       { name: "Assiette frites", prix: 10, comp: "" },
     ],
-    imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
+    imgs: [require("./assets/nug.jpg"), require("./assets/nug1.jpg")],
   },
 
   {
-    Title: "PANINI (SERVIS AVEC FRITES)",
+    Title: "Panini",
     elements: [
-      { name: "Panini thon", prix: 25, comp: "thon+fromage+sauce au choix" },
-      { name: "Panini dinde", prix: 26, comp: "dinde+fromage+sauce au choix" },
+      { name: "SERVIS AVEC FRITES"},
+      { name: "Panini thon", prix: 25, comp: "thon, fromage, Sauce au choix" },
+      { name: "Panini dinde", prix: 26, comp: "dinde, fromage, Sauce au choix" },
       {
-        name: "Panini viande hachée",
+        name: "Panini Viande hachée",
         prix: 26,
-        comp: "viande hachée+fromage+sauce au choix",
+        comp: "Viande hachée, fromage, Sauce au choix",
       },
       {
         name: "Panini mixte",
         prix: 8,
-        comp: "dinde+viande hachée+fromage+sauce au choix",
+        comp: "Dinde, Viande hachée, fromage, Sauce au choix",
       },
       {
-        name: "Panini fruits de mer",
+        name: "Panini Fruits de mer",
         prix: 30,
-        comp: "fruits de mer+fromage+sauce au choix",
+        comp: "Fruits de mer, fromage, Sauce au choix",
       },
     ],
-    imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
+    imgs: [require("./assets/pan.png"), require("./assets/pan.jpg")],
   },
 
   {
-    Title: "GLACES (CITRON+FRAISE+PISTACHE+CARAMEL+NOUGAT+VANILLE+CHOCOLAT……)",
+    Title: "Glaces",
     elements: [
+      {name :"Citron, Fraise, Pistache, Caramel, Nougat, Vanille, Chocolat ..."},
       { name: "1 Boule", prix: 11, comp: " " },
       { name: "2 Boules", prix: 21, comp: " " },
       { name: "3 Boules", prix: 30, comp: " " },
@@ -867,51 +856,51 @@ const Data = [
       { name: "Orange Shake", prix: 26, comp: " " },
       { name: "Strawberry Shake", prix: 28, comp: " " },
       { name: "Panaché", prix: 27, comp: " " },
-      { name: "Coupe Assitana glaces+fruits frais", prix: 48, comp: " " },
+      { name: "Coupe Assitana glaces, Fruits frais", prix: 48, comp: " " },
     ],
-    imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
+    imgs: [require("./assets/glac.jpg"), require("./assets/glac1.jpg")],
   },
 
   {
-    Title: "SMOOTHIES",
+    Title: "Smoothies",
     elements: [
       {
         name: "Smoothies fraise",
         prix: 27,
-        comp: "yaourt+lait+mixer+fraise+slays fraise",
+        comp: "Yaourt, lait, Mixer, fraise, slays fraise",
       },
       {
         name: "Smoothies bananes",
         prix: 27,
-        comp: "yaourt+lait+mixer bananes+slays bananes",
+        comp: "Yaourt, lait, Mixer bananes, slays bananes",
       },
       {
-        name: "Smoothies chocolat",
+        name: "Smoothies Chocolat",
         prix: 28,
-        comp: "créme fraiche+lait chocolat+créme chantilly",
+        comp: "Créme fraiche, lait Chocolat, créme Chantilly",
       },
       {
         name: "Smoothies fragola",
         prix: 29,
-        comp: "créme fraiche+toping fraise+lait+créme chantilly",
+        comp: "Créme fraiche, toping fraise, lait, créme Chantilly",
       },
     ],
-    imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
+    imgs: [require("./assets/smooth.jpg"), require("./assets/smooth1.jpg")],
   },
 
   {
-    Title:'GAUFRES',
+    Title:'Gaufres',
     elements: [
     {name: "Gaufres nature",prix:16,comp: ""},
     {name: "Gaufres miel",prix:18,comp: ""},
     {name: "Gaufres nutella",prix:22,comp: ""},
     {name: "Gaufres nutella bananes",prix:25,comp: ""},
     {name: "Gaufres nutella bueno",prix:28,comp: ""},
-    {name: "Gaufres fruit frais",prix:30,comp: ""},
+    {name: "Gaufres Fruit frais",prix:30,comp: ""},
     ],
     imgs:[
-    require('./assets/pic4.jpg'),
-    require('./assets/pic5.jpg'),
+    require('./assets/gauf1.jpeg'),
+    require('./assets/gauf.jpg'),
     ]
     },
 
@@ -919,73 +908,77 @@ const Data = [
     {
         Title:'WAFFLE BUBBLE',
         elements: [
-        {name: "LA FRUTELLA",prix:35,comp: "*Base nutella +chantilly *choisis 1 fruit (selon la saison) *choisis 1 coulis fraise ou chocolat ou caramel"},
-        {name: "supplement fruit,coulis",prix:6,comp: ""},
-        {name: "LA GOURMANDE",prix:45,comp: "*Base nutella+chantilly *choisis 1 gourmande oreo/bueno *choisis 1 glace vanille ou fraise ou caramel ou pistache ….."},
-        {name: "*Supplément gourmande,glace",prix:15,comp: ""},
+        {name: "La Frutella",prix:35,comp: "*Base nutella + Chantilly \n*Choisis 1 Fruit (selon la saison) \n*Choisis 1 coulis fraise ou Chocolat ou Caramel"},
+        {name: "Supplément Frutella : Coulis",prix:6,comp: ""},
+        {name: "La Gouramnde",prix:45,comp: "*Base nutella + Chantilly \n*Choisis 1 gourmande oreo/bueno \n*Choisis 1 glace vanille ou fraise ou Caramel ou pistache ..."},
+        {name: "Supplément Gourmande : Glace",prix:15,comp: ""},
         ],
         imgs:[
-        require('./assets/pic4.jpg'),
-        require('./assets/pic5.jpg'),
+        require('./assets/wafl.jpg'),
+        require('./assets/wafl1.jpg'),
         ]
         },
 
 
         {
-            Title:'DESSERT',
+            Title:'Dessert',
             elements: [
             {name: "Tiramisu",prix:25,comp: ""},
-            {name: "Salade fruits",prix:27,comp: ""},
+            {name: "Salade Fruits",prix:27,comp: ""},
             {name: "Raib nature",prix:11,comp: ""},
-            {name: "Raib fruits frais",prix:18,comp: ""},
-            {name: "Raib fruits secs",prix:21,comp: ""},
+            {name: "Raib Fruits frais",prix:18,comp: ""},
+            {name: "Raib Fruits secs",prix:21,comp: ""},
             {name: "Raib mixte",prix:25,comp: ""},
             {name: "Coupe assitana",prix:45,comp: ""},
             
             
             ],
             imgs:[
-            require('./assets/pic4.jpg'),
-            require('./assets/pic5.jpg'),
+            require('./assets/des.jpg'),
+            require('./assets/des1.jpg'),
             ]
             },
 
 
             {
-                Title:'CREPE SUCRE',
+                Title:'Crépe Sucré',
                 elements: [
-                {name: "Crepe nutella",prix:24,comp: ""},
+                {name: "Crépe nutella",prix:24,comp: ""},
                 {name: "Crépe nutella banane",prix:26,comp: ""},
-                {name: "Crepe nutella buenno",prix:28,comp: ""},
-                {name: "Crepe miel amandes ou noix ",prix:23,comp: ""},
-                {name: "Crepe Amlou .",prix:28,comp: ""},
-                {name: "Crepe caramel amandes ou noix",prix:25,comp: ""},
-                {name: "Crepe sucre",prix:18,comp: ""},
-                {name: "Crepe Assitana",prix:38,comp: "nutella,1 boule de glace au choix ,chantilly"},
+                {name: "Crépe nutella buenno",prix:28,comp: ""},
+                {name: "Crépe miel amandes ou noix ",prix:23,comp: ""},
+                {name: "Crépe Amlou .",prix:28,comp: ""},
+                {name: "Crépe Caramel amandes ou noix",prix:25,comp: ""},
+                {name: "Crépe sucre",prix:18,comp: ""},
+                {name: "Crépe Assitana",prix:38,comp: "Nutella, 1 Boule de glace au choix , Chantilly"},
                 
                 
                 ],
                 imgs:[
-                require('./assets/pic4.jpg'),
-                require('./assets/pic5.jpg'),
+                require('./assets/crepe1.jpg'),
+                require('./assets/crepe2.jpg'),
+                require('./assets/crepe3.jpg'),
+                require('./assets/crepe4.jpg'),
                 ]
                 },
 
 
                 {
-                    Title:'CREPE SALEE',
+                    Title:'Crépe Salée',
                     elements: [
-                    {name: "Crepe jambon fromage ouef",prix:28,comp: ""},
-                    {name: "Crépe  poulet fromage champigbonse",prix:28,comp: ""},
-                    {name: "Crepe viande hachée sauce blanche fromage",prix:30,comp: ""},
-                    {name: "Crepe crevette ",prix:30,comp: ""},
+                    {name: "Crépe jambon fromage ouef",prix:28,comp: ""},
+                    {name: "Crépe  Poulet fromage champigbonse",prix:28,comp: ""},
+                    {name: "Crépe Viande hachée Sauce blanche fromage",prix:30,comp: ""},
+                    {name: "Crépe crevette ",prix:30,comp: ""},
                     
                     
                     ],
                     imgs:[
-                    require('./assets/pic4.jpg'),
-                    require('./assets/pic5.jpg'),
-                    ]
+                    require('./assets/crepes1.jpeg'),
+                    require('./assets/crepes2.png'),
+                    require('./assets/crepesal.png'),
+
+                  ]
                     },
 
 
