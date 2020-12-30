@@ -134,6 +134,9 @@ const Data = [
       require("./assets/pic1.jpg"),
       require("./assets/pic2.jpg"),
       require("./assets/pic3.jpg"),
+      require("./assets/dej1.jpg"),
+      require("./assets/toast.jpg"),
+      require("./assets/toast1.jpg")
     ],
   },
   {
@@ -224,7 +227,7 @@ const Data = [
       { name: "Gaurmand", prix: 26 },
       { name: "Royal", prix: 26 },
     ],
-    imgs: [require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
+    imgs: [require("./assets/supp.jpg"),require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
   },
   {
     Title: "Cocktails Café Chaud",
@@ -358,7 +361,7 @@ const Data = [
         comp: "Blue berry, Yaourt, 2 boules",
       },
     ],
-    imgs: [require("./assets/cc.png"), require("./assets/1c.png")],
+    imgs: [require("./assets/pass1.jpg"),require("./assets/pass2.jpg"),require("./assets/cafe/6.jpg"), require("./assets/cafe/1.jpg")],
   },
 
   {
@@ -515,7 +518,7 @@ const Data = [
       { name: "Loup à la plancha", prix: 85, comp: "" },
       { name: "Pavé de saumon", prix: 90, comp: "" },
     ],
-    imgs: [require("./assets/poisson1.jpg"), require("./assets/poisson2.jpg")],
+    imgs: [require("./assets/poisson.jpg"), require("./assets/poisson1.jpg")],
   },
   {
     Title: "Risotto",
@@ -627,7 +630,7 @@ const Data = [
           "Galette de riz, légumes, Poulet, crevette, surimi, menthe, cacouette, Sauce vietnamienne",
       },
     ],
-    imgs: [require("./assets/rol.jpg")],
+    imgs: [require("./assets/asia.jpg"),require("./assets/asia1.jpg")],
   },
 
   {
@@ -647,7 +650,7 @@ const Data = [
         comp: "Riz, crevettes avec epices vietnamiennes",
       },
     ],
-    imgs: [require("./assets/nol.jpg"), require("./assets/nol2.jpg")],
+    imgs: [require("./assets/noodle.jpg"), require("./assets/nol2.jpg"),require("./assets/nol.jpg")],
   },
 
   {
@@ -946,6 +949,7 @@ const Data = [
             imgs:[
             require('./assets/des.jpg'),
             require('./assets/des1.jpg'),
+            require("./assets/raib1.jpg")
             ]
             },
 
@@ -987,6 +991,7 @@ const Data = [
                     require('./assets/crepes1.jpeg'),
                     require('./assets/crepes2.png'),
                     require('./assets/crepesal.png'),
+                    require("./assets/sale1.jpg")
 
                   ]
                     },
