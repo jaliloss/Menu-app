@@ -371,7 +371,7 @@ const Data = [
         comp: "Au choix Fruit de passion/punch/fraise/forest Fruit",
       },
     ],
-    imgs: [require("./assets/4.png")],
+    imgs: [require("./assets/mot.jpg"),require("./assets/mot1.jpg")],
   },
   {
     Title: "Boisson",
