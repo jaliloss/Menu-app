@@ -73,10 +73,10 @@ const Cath = (prop) => {
                     <Swiper autoplay height={200}>
 
                         {
-                            prop.Data.imgs.map(el => (
+                            prop.Data.imgs.map(elm => (
                                 <View style={styles.slide}>
                                     <Image
-                                        source={el}
+                                        source={elm}
                                         resizeMode="cover"
                                         style={styles.sliderImage}
                                     />
@@ -87,19 +87,19 @@ const Cath = (prop) => {
                     </Swiper>
 
                 </View>
-                <Text style={styles.title}>{prop.Data.Title}</Text>
+                <Text style={styles.title}>{prop.Data.Titlle}</Text>
                 <ScrollView style={{flex:1, marginBottom:5}}>
                     {
-                        prop.Data.elements.map(el => (
+                        prop.Data.element.map(elm => (
                             <View style={{flex:1, flexDirection:"column", paddingHorizontal:10}}>
                                 <View style={{ flexDirection:'row', justifyContent:'space-between', marginTop:10}}>
-                                    <Text style={{color:'#953C1A', fontSize:15, fontWeight:'bold'}}>{el.name}</Text>
-                                    <Text>{el.prix} DH</Text>
-                                    //hna ziid li bghit
-                                    <Text>{el.prix2} DH</Text>
-                                    <Text>{el.prix3} DH</Text>
+                                    <Text style={{color:'#953C1A', fontSize:15, fontWeight:'bold'}}>{elm.nom}</Text>
+                                    <Text>{elm.prix1} DH</Text>
+                                   
+                                    <Text>{elm.prix2} DH</Text>
+                                    <Text>{elm.prix3} DH</Text>
                                 </View>
-                                <Text style={{fontSize:10}}>{el.comp}</Text>
+                                <Text style={{fontSize:10}}>{elm.desc}</Text>
 
                             </View>
 

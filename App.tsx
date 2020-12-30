@@ -358,7 +358,17 @@ const Data = [
         comp: "Blue berry, Yaourt, 2 boules",
       },
     ],
-    imgs: [require("./assets/cafe/6.jpg"), require("./assets/cafe/1.jpg")],
+    imgs: [require("./assets/cc.png"), require("./assets/1c.png")],
+  },
+
+  {
+    Titlle:"Pizza",
+    elemnt:[
+      {
+        nom:"Pizza",prix1: 23,prix2: 23,prix3: 24,desc:""
+      }
+    ] ,
+    imgs: [require("./assets/mot.jpg"),require("./assets/mot1.jpg")],
   },
 
   {
