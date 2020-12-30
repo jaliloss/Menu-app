@@ -460,7 +460,7 @@ const Data = [
           "Salade romaine, Poulet, crouton, tomate cerise, fromage, mayonaise vietnamienne",
       },
     ],
-    imgs: [require("./assets/0.jpg"), require("./assets/8.jpg")],
+    imgs: [require("./assets/salade1.jpg"), require("./assets/salade2.jpg"), require("./assets/salade3.jpg")],
   },
   {
     Title: "Pasta",
