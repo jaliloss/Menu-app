@@ -87,7 +87,7 @@ const Cath = (prop) => {
                     </Swiper>
 
                 </View>
-                <Text style={styles.title}>{prop.Data.Titlle}</Text>
+                <Text style={styles.title}>{prop.Data.Title}</Text>
                 <ScrollView style={{flex:1, marginBottom:5}}>
                     {
                         prop.Data.element.map(elm => (
