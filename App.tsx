@@ -366,12 +366,12 @@ const Data = [
 
   {
     Titlle:"Pizza",
-    elemnt:[
+    element:[
       {
         nom:"Pizza",prix1: 23,prix2: 23,prix3: 24,desc:""
       }
     ] ,
-    imgs: [require("./assets/mot.jpg"),require("./assets/mot1.jpg")],
+    img: [require("./assets/mot.jpg"),require("./assets/mot1.jpg")],
   },
 
   {
