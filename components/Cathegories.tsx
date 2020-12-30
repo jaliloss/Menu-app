@@ -73,7 +73,7 @@ const Cath = (prop) => {
                     <Swiper autoplay height={200}>
 
                         {
-                            prop.Data.imgs.map(elm => (
+                            prop.Data.img.map(elm => (
                                 <View style={styles.slide}>
                                     <Image
                                         source={elm}

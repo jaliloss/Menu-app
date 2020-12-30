@@ -364,15 +364,15 @@ const Data = [
     imgs: [require("./assets/pass1.jpg"),require("./assets/pass2.jpg"),require("./assets/cafe/6.jpg"), require("./assets/cafe/1.jpg")],
   },
 
-  // {
-  //   Title:"Pizza",
-  //   element:[
-  //     {
-  //       nom:"Pizza",prix1: 23,prix2: 23,prix3: 24,desc:""
-  //     }
-  //   ] ,
-  //   imgs: [require("./assets/mot.jpg"),require("./assets/mot1.jpg")],
-  // },
+  {
+    Titlle:"Pizza",
+    element:[
+      {
+        nom:"Pizza",prix1: 23,prix2: 23,prix3: 24,desc:""
+      }
+    ] ,
+    img: [require("./assets/mot.jpg"),require("./assets/mot1.jpg")],
+  },
 
   {
     Title: "Mojito",
