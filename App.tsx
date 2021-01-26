@@ -199,8 +199,11 @@ const Data = [
       { name: "Lait chaud", prix: 11 },
       { name: "Lait froid", prix: 10 },
     ],
-    imgs: [require("./assets/cafe/0.jpg"), require("./assets/cafe/1.jpg")
-    , require("./assets/cafe/2.jpg"),, require("./assets/cafe/3.jpg")],
+    imgs: [
+      require("./assets/caf1.jpg"), 
+      require("./assets/caf2.jpg"), 
+      require("./assets/caf3.jpg"), 
+    ],
   },
 
   {
@@ -240,7 +243,7 @@ const Data = [
       { name: "Gaurmand", prix: 26 },
       { name: "Royal", prix: 26 },
     ],
-    imgs: [require("./assets/supp.jpg"),require("./assets/pic4.jpg"), require("./assets/pic5.jpg")],
+    imgs: [require("./assets/supp.jpg")],
   },
   {
     Title: "Cocktails Café Chaud",
@@ -280,7 +283,7 @@ const Data = [
       { name: "Chocolat chaud à l’ancienne", prix: 18, comp: "" },
 
     ],
-    imgs: [require("./assets/ch.jpg")],
+    imgs: [require("./assets/coch.jpg"),require("./assets/coch1.jpg"),require("./assets/coch2.jpg"),],
   },
   {
     Title: "Jus",
@@ -301,7 +304,7 @@ const Data = [
       { name: "Jus de Citron kiwi", prix: 20, comp: "" },
       { name: "Jus d’Ananas kiwi Citron", prix: 24, comp: "" },
     ],
-    imgs: [require("./assets/12.png"), require("./assets/7.png"), require("./assets/19.png")],
+    imgs: [require("./assets/juss.jpg"), require("./assets/7.png"), require("./assets/juss2.jpg")],
   },
   {
     Title: "Cocktail Froid",
@@ -374,10 +377,18 @@ const Data = [
         comp: "Blue berry, Yaourt, 2 boules",
       },
     ],
-    imgs: [require("./assets/pass1.jpg"),require("./assets/pass2.jpg"),require("./assets/cafe/6.jpg"), require("./assets/cafe/1.jpg")],
+    imgs: [require("./assets/pass1.jpg"),require("./assets/pass2.jpg")],
   },
 
-  
+  //
+  //   Titlle:"Pizza",
+  //   element:[
+  //     {
+  //       nom:"Pizza",prix1: 23,prix2: 23,prix3: 24,desc:""
+  //     }
+  //   ] ,
+  //   img: [require("./assets/mot.jpg"),require("./assets/mot1.jpg")],
+  // },
 
   {
     Title: "Mojito",
@@ -412,7 +423,7 @@ const Data = [
       { name: "Schweppes mujito", prix: 16, comp: "" },
       { name: "Sweety", prix: 17, comp: "" },
     ],
-    imgs: [require("./assets/or.jpg"), require("./assets/ou.jpg")],
+    imgs: [require("./assets/or.jpg"), require("./assets/ou.jpg"),require("./assets/oas.jpg"),],
   },
   {
     Title: "Salades",
@@ -465,7 +476,7 @@ const Data = [
           "Salade romaine, Poulet, crouton, tomate cerise, fromage, mayonaise vietnamienne",
       },
     ],
-    imgs: [require("./assets/0.jpg"), require("./assets/8.jpg")],
+    imgs: [require("./assets/salade1.jpg"), require("./assets/salade2.jpg"), require("./assets/salade3.jpg")],
   },
   {
     Title: "Pasta",
@@ -481,7 +492,7 @@ const Data = [
         comp: "Fruit de mer, poisson blanc, surimi penné",
       },
     ],
-    imgs: [require("./assets/17.png"), require("./assets/11.png")],
+    imgs: [require("./assets/pasta.jpg"), require("./assets/pasta1.jpg")],
   },
   {
     Title: "Soupe",
