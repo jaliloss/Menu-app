@@ -3,6 +3,19 @@ import React from "react";
 import { ScrollView, StyleSheet, Text, View } from "react-native";
 import Cathegories from "./components/Cathegories";
 const Data = [
+  
+  {
+    Title:"Pizza",
+    elements:[
+      {
+        nom:"Pizza",prix1: 23,prix2: 23,prix3: 24,desc:""
+      }
+    ] ,
+    img: [require("./assets/mot.jpg"),require("./assets/mot1.jpg")],
+  },
+
+  
+  
   {
     Title: "Petit Dèjeuner",
     elements: [
@@ -364,15 +377,7 @@ const Data = [
     imgs: [require("./assets/pass1.jpg"),require("./assets/pass2.jpg"),require("./assets/cafe/6.jpg"), require("./assets/cafe/1.jpg")],
   },
 
-  {
-    Titlle:"Pizza",
-    element:[
-      {
-        nom:"Pizza",prix1: 23,prix2: 23,prix3: 24,desc:""
-      }
-    ] ,
-    img: [require("./assets/mot.jpg"),require("./assets/mot1.jpg")],
-  },
+  
 
   {
     Title: "Mojito",
@@ -997,10 +1002,12 @@ const Data = [
                     },
 
 
+
                    
         
 
 ];
+
 
 export default function App() {
   return (
@@ -1008,10 +1015,12 @@ export default function App() {
       <ScrollView>
         {Data.map((el) => (
           <Cathegories Data={el} />
+     
         ))}
       </ScrollView>
     </View>
   );
+
 }
 
 const styles = StyleSheet.create({

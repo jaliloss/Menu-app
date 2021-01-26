@@ -73,10 +73,10 @@ const Cath = (prop) => {
                     <Swiper autoplay height={200}>
 
                         {
-                            prop.Data.img.map(elm => (
+                            prop.Data.img.map(el => (
                                 <View style={styles.slide}>
                                     <Image
-                                        source={elm}
+                                        source={el}
                                         resizeMode="cover"
                                         style={styles.sliderImage}
                                     />
@@ -90,16 +90,16 @@ const Cath = (prop) => {
                 <Text style={styles.title}>{prop.Data.Title}</Text>
                 <ScrollView style={{flex:1, marginBottom:5}}>
                     {
-                        prop.Data.element.map(elm => (
+                        prop.Data.elements.map(el => (
                             <View style={{flex:1, flexDirection:"column", paddingHorizontal:10}}>
                                 <View style={{ flexDirection:'row', justifyContent:'space-between', marginTop:10}}>
-                                    <Text style={{color:'#953C1A', fontSize:15, fontWeight:'bold'}}>{elm.nom}</Text>
-                                    <Text>{elm.prix1} DH</Text>
+                                    <Text style={{color:'#953C1A', fontSize:15, fontWeight:'bold'}}>{el.nom}</Text>
+                                    <Text>{el.prix1} DH</Text>
                                    
-                                    <Text>{elm.prix2} DH</Text>
-                                    <Text>{elm.prix3} DH</Text>
+                                    <Text>{el.prix2} DH</Text>
+                                    <Text>{el.prix3} DH</Text>
                                 </View>
-                                <Text style={{fontSize:10}}>{elm.desc}</Text>
+                                <Text style={{fontSize:10}}>{el.desc}</Text>
 
                             </View>
 
@@ -167,3 +167,5 @@ const styles = StyleSheet.create({
 })
 
 export default Cathegories;
+
+export default Cath;
